@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<lettergroups>
+  <lettergroup>
+    <slug></slug>
+    <name></name>
+    <name_en></name_en>
+    <letters>
+      <letter>
+        <title></title>
+        <content></content>
+        <title_en></title_en>
+        <content_en></content_en>
+        <source></source>
+        <source_en></source_en>
+      </letter>
+    </letters>
+  </lettergroup>
+</lettergroups>
+
+<!-- <footnotes>
+  <footnote></footnote>
+</footnotes>
+<footnotes_en>
+</footnotes_en> -->

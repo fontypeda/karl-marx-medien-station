@@ -1,0 +1,36 @@
+<div class="main-component-wrapper">
+
+  <!-- Might have more than one -->
+  <!-- <div *ngIf="bioSelection.length > 1">
+    WILL HAVE SELECTION
+  </div> -->
+  <!-- <div *ngIf="bioSelection.length === 1"> -->
+  <div class="persons-box">
+
+    <mat-grid-list fxFlex="grow" cols="8" rowHeight="300px">
+
+     <!-- <div > -->
+    <mat-grid-tile *ngFor="let person of persons">
+
+     <div  [routerLink]="'./' + person.slug" [fxHide]="isoCode === 'en' && !person.has_en" class="nav-content">
+         <div class="circle">
+           <img
+             width=100
+             [src]="'./assets/portraits/' + person.slug + '.jpg'" alt="">
+         </div>
+
+         <p class="person-name">
+           {{ person.name[isoCode] }}
+         </p>
+
+     </div>
+     </mat-grid-tile>
+   <!-- </div> -->
+
+  </mat-grid-list>
+
+  </div>
+
+  <!-- </div> -->
+
+</div>

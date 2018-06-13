@@ -1,0 +1,16 @@
+<div class="main-component-wrapper">
+  <div class="component-padding">
+  <div class="letters-overview-main">
+    <div class="text-content" fxFlex fxLayout="row" fxLayoutAlign="space-around center">
+      <app-missing-translation *ngIf="isoCode === 'en' && !englishLettersAvailable"></app-missing-translation>
+      <div  *ngFor="let letterGroup of letterGroupOverview" >
+            <app-baloon-selector
+              [hidden]="isoCode === 'en' && !letterGroup.has_en"
+              [link]="letterGroup.slug"
+              [name]="letterGroup.name"></app-baloon-selector>
+      </div>
+
+    </div>
+  </div>
+  </div>
+</div>

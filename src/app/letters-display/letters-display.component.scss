@@ -1,0 +1,65 @@
+@import '../../common-vars.scss';
+
+
+h2 {
+  font-family: 'nra';
+  font-size: 2rem;
+  color: $primary-color;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 1.9rem;
+  font-family: 'maax';
+  font-size: 1.2rem;
+}
+
+p.zit {
+  font-style: italic;
+  opacity: 0.5;
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
+.letter {
+  margin-bottom: 70px;
+  padding-right: 100px;
+}
+
+.letters {
+  overflow-y: scroll;
+  height: calc(100vh - 143px);
+}
+
+.custom-button-main {
+  color: $primary-color;
+  border: 3px solid $primary-color;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 250px;
+  background-color: transparent;
+}
+
+.pagescroll-letter {
+  line-height: 1.3rem;
+  border: 3px solid $primary-color;
+  color: $primary-color;
+  font-size: 1rem;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: transparent;
+  width: 100%;
+}
+
+.pagescroll-letter a {
+  color: $primary-color;
+  text-decoration: none;
+}
+
+.letter-overview {
+  overflow-x: auto;
+  height: 938px;
+  padding-right: 10px;
+}

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<city-portraits>
+  <city-group>
+    <city-name></city-name>
+    <slug></slug>
+    <city-articles>
+      <city-article>
+        <title></title>
+        <content></content>
+        <title_en></title_en>
+        <content_en></content_en>
+      </city-article>
+    </city-articles>
+  </city-group>
+<city-portraits>

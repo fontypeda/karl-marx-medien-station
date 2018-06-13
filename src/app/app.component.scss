@@ -1,0 +1,74 @@
+@import '../common-vars.scss';
+
+
+
+.application-main {
+  display: flex;
+  min-height: 100vh;
+  flex-direction: column;
+}
+
+.site-content {
+  flex: 1;
+}
+
+.application-footer, .application-header {
+  background-color: #171717;
+}
+
+// .router-content-container {
+//   height: calc(100vh - 100px);
+// }
+
+.language-link {
+  font-family: 'maax', sans-serif;
+  font-size: 2.8rem;
+  color: $primary-color;
+  padding: 16px;
+  cursor: pointer;
+  opacity: 0.5;
+  font-weight: normal;
+  letter-spacing: 3px;
+}
+
+.active-language {
+  opacity: 1;
+  font-weight: bold;
+}
+
+
+.custom-icon {
+
+  padding: 16px;
+  padding-right: 0px;
+margin-bottom: 10px;
+
+}
+
+.custom-icon-name {
+font-size: 2.8rem;
+font-weight: normal;
+color: $primary-color;
+padding: 0px 16px;
+text-transform: uppercase;
+letter-spacing: 2px;
+font-family: 'maax', sans-serif;
+}
+
+.custom-home {
+  padding-left:20px;
+  padding-right:30px;
+}
+
+h2 {
+  font-family: 'nra';
+  font-size: 2rem;
+  color: $primary-color;
+  letter-spacing: 2px;
+}
+
+p {
+  line-height: 1.9rem;
+  font-family: 'maax';
+  font-size: 1.2rem;
+}

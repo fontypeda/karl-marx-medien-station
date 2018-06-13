@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<biography-selection>
+  <city>
+    <name>Trier</name>
+    <slug>trier</slug>
+    <slugs>
+      <slug>aug_gus_las</slug>
+      <slug>carl_westph</slug>
+      <slug>edg_westph</slug>
+      <slug>fried_ant_wytt</slug>
+      <slug>heinr_marx</slug>
+      <slug>heinr_rosb</slug>
+      <slug>joh_aug_mess</slug>
+      <slug>jenny_marx</slug>
+      <slug>joh_ant_ramb</slug>
+      <slug>joh_pet_herm</slug>
+      <slug>joh_pet_stein</slug>
+      <slug>joh_steinin</slug>
+      <slug>lud_gall</slug>
+      <slug>ludw_simon</slug>
+      <slug>ludw_westph</slug>
+      <slug>matth_fisch</slug>
+      <slug>nik_vald</slug>
+      <slug>thom_simon</slug>
+      <slug>vik_jo_dew</slug>
+      <slug>vik_vald</slug>
+    </slugs>
+  </city>
+</biography-selection>

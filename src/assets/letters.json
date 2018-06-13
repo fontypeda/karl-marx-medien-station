@@ -1,0 +1,51 @@
+[
+  {
+    "name": "Trier",
+    "slug": "trier",
+    "letters": [
+        {
+          "de": {
+            "title": "Jenny Marx aus Trier an Karl Marx in Paris, zwischen 11. und 18. August 1844",
+            "content": "[…] In Trier ist schon ein Treiben und Leben, wie ich es nie gesehen habe. Alles ist in Bewegung. Die Läden sind alle neu aufgeputzt, jeder richtet Zimmer zum Logieren ein. Wir haben auch eine Stube bereit. Ganz Koblenz kommt, und die crême der Gesellschaft schließt sich der Prozession an. Alle Gasthöfe sind schon überfüllt. 210 Schenkwirtschaften sind neu etabliert, Kunstreiter, Theater, Menagerien, Dioramas, Welttheater, kurz alles, was man sich denken kann, kündet sich schon an. Der ganze Pallastplatz ist mit Zelten besäet. Vor den Toren sind ganze Bretterhäuser aufgeschlagen. Am Sonntag geht Trier. Jeder muß sich an eine Prozession anschließen, und dann kommen die Dörfer. Täglich 16.000 Menschen. […] An jedem Hause hängen Rosenkränze von 6 Pf. an bis zu 100 Taler. Ein klein Medaillon hab' ich auch fürs Mämerchen [Jenny] gekauft, und gestern hat es sich selbst ein Rosenkränzchen geholt. Man hat gar keine Vorstellung von dem Getreibe hier. Für die nächste Woche kommt halb Luxemburg an; […]. Die Menschen sind alle wie wahnsinnig. Was soll man nun davon denken? Ist das ein gutes Zeichen der Zeit, daß alles bis zum Extrem gehen muß, oder sind wir noch so fern vom Ziel.",
+            "source": "MEW, Bd. 40, S. 652–655."
+          },
+          "en": {
+            "title": "Jenny Marx from Trier to Karl Marx in Paris, between 11. und 18. August 1844",
+            "content": "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Libero et unde aperiam. Accusantium ducimus corporis illo placeat esse minima modi ipsa, dolore eos quisquam officia amet fugiat perferendis adipisci natus.",
+            "source": "MEW, Bd. 40, S. 652–655."
+          }
+        },
+        {
+          "de": {
+            "title": "Jenny Marx aus Trier an Caroline Schoeler in Köln, 29. Juni 1849",
+            "content": "[…] Du kannst [Dir] denken, wieviel kleinliche Berührungen es im täglichen Leben gibt, und ich kann sagen, ich habe hier noch nicht frei geatmet. Dazu ist Trier auch sonst noch das kleinste, erbärmlichste Nest, voll von Klatsch und lächerlicher Lokalvergötterung.",
+            "source": "Marx-Engels-Nachlass, Sign. F 62, Internationales Institut für Sozialgeschichte, Amsterdam; zitiert nach: Rolf Hecker, Angelika Limmroth (Hg.): Jenny Marx. Die Briefe, Berlin 2014, S. 88."
+          },
+          "en": null
+        }
+    ]
+  },
+  {
+    "name": "Familie",
+    "slug": "family",
+    "letters": [
+        {
+          "title": "Heinrich Marx an die Immediat-Justizkommission in Düsseldorf (mit der Bitte, einen von ihm verfassten Aufsatz anonym zu veröffentlichen), 17. Januar 1817",
+          "content": "[…] Aber leider sind meine Verhältnisse von der Art, daß ich als Familien Vater etwas behutsam seyn muß. Die Sekte, an welcher die Natur mich gekettet, ist, wie bekannt, in keinem besonderen Ansehn, und die hiesige Provinz gerade nicht die Toleranteste. Und wenn ich viel und manches Bittere erdulden, und mein kleines Vermögen beynahe gänzlich zusetzen mußte, bis man sich nur entschließen konnte zu glauben, ein Jude könne auch etwas Talent haben, und rechtlich seyn: so kann es mir wohl nicht verübelt werden, wenn ich einigermaßen scheu geworden bin.",
+          "source": "Landesarchiv Nordrhein-Westfalen Abteilung Rheinland (Düsseldorf), Akten der Immediat-Justiz-Kommission Nr. 44, Blatt 74; zitiert nach: Heinz Monz: Die rechtsethischen und rechtspolitischen Anschauungen des Heinrich Marx, in: Archiv für Sozialgeschichte Bd. VIII, 1968, S. 276."
+        },
+        {
+          "title": "Caroline von Westphalen aus Trier an Friedrich Perthes in Gotha, 21. Dezember 1826",
+          "content": "[…] Ein herrlicher Charakter durch den ich hienieden einen Himmel genieße, alle Stürme des Lebens tragen wir mit Liebe untereinander, denn oft hat freilich das Schicksal unsanft an uns gezerrt, aber wer eine solche Stütze hat wie ich an ihm habe, da sinkt mein Fus nicht.",
+          "source": "Stadtarchiv Hamburg, Nachlass der Familie Perthes I 16 d, Blatt 8384; zitiert nach: Heinz Monz: Karl Marx. Grundlagen der Entwicklung zu Leben und Werk, Trier 1973, S. 329f."
+
+        }
+    ]
+  }
+
+
+
+
+
+
+]

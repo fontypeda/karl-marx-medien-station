@@ -1,0 +1,35 @@
+<div class="main-component-wrapper">
+  <div class="component-padding">
+  <div fxLayout="row" fxLayoutGap="50px">
+    <div fxFlex="">
+      <button  class="custom-button-main"  (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
+    </div>
+    <div fxFlex="60" class="letters">
+      <app-missing-translation *ngIf="isoCode === 'en' && !hasEn"></app-missing-translation>
+      <ng-container *ngIf="isoCode === 'de' || (isoCode === 'en' && hasEn)">
+        <div class="letter" *ngFor="let letter of letters; let idx = index;">
+          <ng-container *ngIf="isoCode === 'de' || (isoCode === 'en' && letter.has_en)">
+            <h2 [id]="'letter' + idx">{{ letter[isoCode].title }}</h2>
+            <p>{{ letter[isoCode].content }}</p>
+
+            <p class="zit">{{ letter.source }}</p>
+          </ng-container>
+        </div>
+
+      </ng-container>
+    </div>
+    <div fxFlex="" class="letter-overview">
+      <ng-container *ngIf="isoCode === 'de' || (isoCode === 'en' && hasEn)">
+        <div *ngFor="let letter of letters; let idx = index;">
+
+          <button *ngIf="letter[isoCode].title" class="pagescroll-letter"
+          (click)="scrollTo(idx)">{{ letter[isoCode].title }}</button>
+
+        </div>
+      </ng-container>
+
+    </div>
+
+  </div>
+  </div>
+</div>

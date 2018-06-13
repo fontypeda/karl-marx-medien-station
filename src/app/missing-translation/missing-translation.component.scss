@@ -1,0 +1,10 @@
+@import '../../common-vars.scss';
+
+.main {
+  display: flex;
+  font-size: 40px;
+  color: $primary-color;
+  text-align: center;
+  width: 100%;
+  height: 800px;
+}

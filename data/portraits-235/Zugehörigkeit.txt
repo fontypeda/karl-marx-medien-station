@@ -1,0 +1,32 @@
+Adolf Cluss: Bio_01
+Caroline Schoeler: Bio_02
+Carl Schurz: Bio_03
+Charles Longuet: Bio_04
+David Urquhart: Bio_05
+Edward Aveling: Bio_06
+Edgar Marx: Bio_07
+Edgar von Westphalen: Bio_08
+Eleanor Marx: Bio_09
+Ernest Charles Jones: Bio_10
+Ferdinand Lassalle: Bio_11
+Frederik Demuth: Bio_12
+Freidrich Engels: Bio_13
+Freidrich Leﬂner: Bio_14
+Guiseppe Mazzini: Bio_15
+Gottfried Kinkel: Bio_16
+Gustav Struve: Bio_17
+Harro Harring: Bio_18
+Heinrich Bernard Oppenheim: Bio_19
+Helene Demuth: Bio_20
+Heinrich Guido Marx: Bio_21
+Jenny Evelin Franziska Marx: Bio_22
+Jenny Marx: Bio_23
+Jenny Marx (Tochter): Bio_24
+Lajos Kossuth: Bio_25
+Laura Marx: Bio_26
+Lizzy Burns: Bio_27
+Mary Burns: Bio_28
+Olivier Lissagaray: Bio_29
+Paul Lafargue: Bio_30 
+Peter Imandt: Bio_31
+Wilhelm Liebknecht: Bio_32

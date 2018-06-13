@@ -1,0 +1,29 @@
+<div class="main-component-wrapper">
+  <div class="component-padding">
+    <div fxLayout="row" fxLayoutGap="50px">
+      <div fxFlex="">
+        <button  class="custom-button-main"  (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
+      </div>
+      <div fxFlex="60" class="city-portraits">
+        <div class="city-portrait">
+          <!-- <h1>{{ city.name }}</h1> -->
+          <div *ngFor="let article of city.articles; let idx = index">
+            <h2 [id]="'article' + idx">{{ article[isoCode]["title"] }}</h2>
+            <p>{{ article[isoCode]["content"] }}</p>
+          </div>
+        </div>
+      </div>
+      <div fxFlex class="letter-overview">
+        <div *ngFor="let article of city.articles; let idx = index;">
+
+            <button
+              class="pagescroll-letter"
+              (click)="scrollTo(idx)">{{ article[isoCode].title }}</button>
+
+        </div>
+
+      </div>
+
+    </div>
+  </div>
+</div>

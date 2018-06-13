@@ -1,0 +1,82 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';*/
+@import '~@angular/material/theming';
+@import './material-theme.scss';
+
+body {
+  background-color: black;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'maax', sans-serif;
+  color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+  font-family: 'nra', sans-serif;
+
+}
+
+.mat-flat-button.mat-primary, .mat-raised-button.mat-primary, .mat-fab.mat-primary, .mat-mini-fab.mat-primary {
+    color: rgba(0, 0, 0, 0.87);
+    font-family: 'nra', sans-serif;
+}
+
+:focus {
+    outline: none;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    background: #000;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fff;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fff;
+}
+
+.main-component-wrapper {
+  height: 988px;
+  overflow: hidden;
+}
+
+.component-padding {
+  padding: 50px;
+  padding-bottom: 0px;
+  height: 100%;
+}
+
+h2 {
+  font-family: 'nra';
+  font-size: 2rem;
+  color: $primary-color;
+  letter-spacing: 2px;
+}
+
+.custom-button-main {
+  color: $primary-color;
+  border: 3px solid $primary-color;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+  padding: 1rem;
+  width: 100%;
+  max-width: 250px;
+  background-color: transparent;
+}
+
+p {
+  line-height: 1.9rem;
+  font-family: 'maax';
+  font-size: 1.2rem;
+  letter-spacing: 0.8;
+}

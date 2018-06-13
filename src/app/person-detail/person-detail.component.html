@@ -1,0 +1,47 @@
+<div class="main-component-wrapper">
+  <div class="component-padding">
+
+  <div fxLayout="row" fxLayoutGab="50px">
+    <div fxFlex="">
+      <button  class="custom-button-main" (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
+    </div>
+    <div fxFlex="60">
+      <div fxLayout="row" fxLayoutAlign="center center">
+        <div fxFlex="150px">
+          <div class="circle">
+          <img [src]="'./assets/portraits/' + bioId + '.jpg'" alt="">
+        </div>
+        </div>
+        <div fxFlex="">
+          <h2>{{ bioInfo.name }} ({{ bioInfo.lifespan}})</h2>
+        </div>
+      </div>
+
+
+    </div>
+    <div fxFlex="">
+
+    </div>
+  </div>
+
+<br/>
+
+  <div class="main-person-detail" fxLayout="row" fxLayoutGab="50px">
+    <div fxFlex="">
+
+    </div>
+
+    <div fxFlex="60">
+      <app-missing-translation *ngIf="isoCode === 'en' && !bioInfo.has_english"></app-missing-translation>
+      <div class="text-content">
+        <p *ngFor="let para of bioInfo[isoCode]['content']">{{ para }}</p>
+      </div>
+    </div>
+
+    <div fxFlex="">
+
+    </div>
+
+  </div>
+  </div>
+</div>

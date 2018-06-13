@@ -1,0 +1,82 @@
+@import '~@angular/material/theming';
+@import 'common-vars.scss';
+
+@font-face {
+    font-family: 'maax';
+    font-weight: bold;
+    src: url('./assets/fonts/mb.otf');
+}
+
+@font-face {
+    font-family: 'maax';
+    font-weight: normal;
+    src: url('./assets/fonts/mbr.otf');
+}
+
+@font-face {
+    font-family: 'nra';
+    font-weight: bold;
+    src: url('./assets/fonts/nra.otf');
+}
+
+@font-face {
+    font-family: 'nra';
+    font-weight: normal;
+    src: url('./assets/fonts/nram.otf');
+}
+
+@font-face {
+    font-family: 'nra';
+    font-style: italic;
+    src: url('./assets/fonts/nrai.otf');
+}
+//
+//
+// Define a custom typography config that overrides the font-family as well as the
+// `headlines` and `body-1` levels.
+$regular-typography: mat-typography-config(
+  $font-family: '"nra", "Helvetica Neue", sans-serif'
+);
+
+
+// @include mat-core($regular-typography);
+
+// Reprodruces mat-lime palette
+$marx-primary-colors: (
+  50: #f9fbe7,
+  100: #f0f4c3,
+  200: #e6ee9c,
+  300: #dce775,
+  400: #d4e157,
+  500: #cddc39,
+  600: #c0ca33,
+  700: #afb42b,
+  800: #9e9d24,
+  900: #827717,
+  A100: #f4ff81,
+  A200: $primary_color,   // Substituted color
+  A400: #c6ff00,
+  A700: #aeea00,
+  contrast: (
+    50: $dark-primary-text,
+    100: $dark-primary-text,
+    200: $dark-primary-text,
+    300: $dark-primary-text,
+    400: $dark-primary-text,
+    500: $dark-primary-text,
+    600: $dark-primary-text,
+    700: $dark-primary-text,
+    800: $dark-primary-text,
+    900: $light-primary-text,
+    A100: $dark-primary-text,
+    A200: $dark-primary-text,
+    A400: $dark-primary-text,
+    A700: $dark-primary-text,
+  )
+);
+
+$marx-app-primary: mat-palette($marx-primary-colors, A200);
+$marx-app-accent:  mat-palette($marx-primary-colors, A200, A100, A400);
+$marx-app-theme:   mat-light-theme($marx-app-primary, $marx-app-accent);
+// @include angular-material-typography($regular-typography);
+@include angular-material-theme($marx-app-theme);

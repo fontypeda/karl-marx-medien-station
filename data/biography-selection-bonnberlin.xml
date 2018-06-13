@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<biography-selection>
+  <city>
+    <name>Bonn</name>
+    <slug>bonn</slug>
+    <slugs>
+      <slug>aug_wil_schlegel</slug>
+      <slug>bruno_bauer</slug>
+      <slug>edg_westph</slug>
+      <slug>fried_gott_welck</slug>
+      <slug>heinr_rosb</slug>
+    </slugs>
+  </city>
+  <city>
+    <name>Berlin</name>
+    <slug>bonn</slug>
+    <slugs>
+      <slug>bruno_bauer</slug>
+      <slug>ed_gans</slug>
+      <slug>edg_westph</slug>
+      <slug>fried_jul_stahl</slug>
+      <slug>fried_carl_sav</slug>
+      <slug>georg_hegel</slug>
+      <slug>ludw_feuerb</slug>
+    </slugs>
+  </city>
+</biography-selection>
