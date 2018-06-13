@@ -41,6 +41,11 @@ Bruno Bauer nur ein Brief!
 
 Friedrich Engels fehlt titel im englischen
 
+#### Briefe
+
+Karl Marx aus Köln an den Obersten Engels [preuß. Stadtkommandant] in Köln, 3. März 1849 (Entwurf)
+Es fehlt ein Quellennachweis!
+
 ### Paris
 
 #### Biographien
