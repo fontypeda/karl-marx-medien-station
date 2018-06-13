@@ -26,4 +26,4 @@ for slug in all_slugs:
 
 if not has_missing:
     for slug in all_slugs:
-        print("<slug>" + slug_dict[slug] + "</slug>")
+        print("<slug>" + slug_dict[slug.lower()] + "</slug>")

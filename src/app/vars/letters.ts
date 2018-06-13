@@ -1,304 +1,545 @@
 export const letters = [
        {
-              "slug": "trier",
               "has_en": false,
+              "name": {
+                     "en": null,
+                     "de": "Briefe Dronke"
+              },
               "letters": [
                      {
-                            "de": {
-                                   "title": "Jenny Marx aus Trier an Karl Marx in Paris, zwischen 11. und 18. August 1844",
-                                   "content": [
-                                          "[…] In Trier ist schon ein Treiben und Leben, wie ich es nie gesehen habe. Alles ist in Bewegung. Die Läden sind alle neu aufgeputzt, jeder richtet Zimmer zum Logieren ein. Wir haben auch eine Stube bereit. Ganz Koblenz kommt, und die crême der Gesellschaft schließt sich der Prozession an. Alle Gasthöfe sind schon überfüllt. 210 Schenkwirtschaften sind neu etabliert, Kunstreiter, Theater, Menagerien, Dioramas, Welttheater, kurz alles, was man sich denken kann, kündet sich schon an. Der ganze Pallastplatz ist mit Zelten besäet. Vor den Toren sind ganze Bretterhäuser aufgeschlagen. Am Sonntag geht Trier. Jeder muß sich an eine Prozession anschließen, und dann kommen die Dörfer. Täglich 16.000 Menschen. […] An jedem Hause hängen Rosenkränze von 6 Pf. an bis zu 100 Taler. Ein klein Medaillon hab' ich auch fürs Mämerchen [Jenny] gekauft, und gestern hat es sich selbst ein Rosenkränzchen geholt. Man hat gar keine Vorstellung von dem Getreibe hier. Für die nächste Woche kommt halb Luxemburg an; […]. Die Menschen sind alle wie wahnsinnig. Was soll man nun davon denken? Ist das ein gutes Zeichen der Zeit, daß alles bis zum Extrem gehen muß, oder sind wir noch so fern vom Ziel."
-                                   ]
-                            },
+                            "source": "MEW, Bd. 27, Brief 51 (an Dritte).",
                             "en": {
-                                   "title": null,
-                                   "content": []
+                                   "content": [],
+                                   "title": null
                             },
-                            "source": "MEW, Bd. 40, S. 652–655.",
-                            "has_en": false
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Dronke!",
+                                          "[…] 1. Was Deine Herkunft betrifft: Als ich Dir schrieb, „Komme nicht eher nach Deutschland, als bis ich Dir schreibe“, hatte Kratz mir erklärt, Deine Sache sei noch nicht im reinen.",
+                                          "2. […] Ich hatte in der Zwischenzeit vor der Aktionärengesellschaft erklärt, daß Korff oder ich aus der Zeitung austreten müßten. […] und die Zeitung [„NRZ“] stand, wie Engels selbst bei seiner Ankunft fand, täglich auf dem Sprung, sich bankerutt zu erklären.",
+                                          "3. Was die Geschichte mit Meyerbeer betrifft, so weiß ich kein Wort davon. Du begreifst, daß in einer Lage, wo wir täglich Setzerrebellionen wegen ein paar Taler hatten, ich 150 Taler nicht verschmäht haben würde.",
+                                          "4. […] Was Weerths Glosse [betrifft] (die sich übrigens nicht auf Dich, sondern auf Imandt bezog, der unaufhörlich herschrieb), so habe ich erst jetzt davon gehört.",
+                                          "5. Was die 25 am 14. Januar geschickten Taler betrifft, so sind sie in Gegenwart von Zeugen per Adresse Ewerbeck an Dich abgegangen. […]  N[ota]bene: Kapp hat um dieselbe Zeit 15 Taler von mir erhalten.",
+                                          "6. Was mein Nichtantworten betrifft, so wird Lupus Zeugnis für mein sehr häufiges Schreiben an Dich ablegen.",
+                                          "7. Wenn ich Dir einmal in gereiztem Tone schrieb, so geschah es, a) weil ich mit der Zeitung im dicksten Pech saß und alle Korrespondenten und Gläubiger der Zeitung auf mich losstürmten, b) weil Imandt in einem Briefe an Freiligrath Dich, Kapp usw. als im höchsten Grade heulend über mich schilderte [...].",
+                                          "In einigen Tagen muß die Zeitung untergehn oder sie konsolidiert sich, und dann werden wir Dir sofort weitere Moneten, die jetzt gänzlich mangeln, zuschicken. […]",
+                                          "Daß ich Dich fortwährend als Mitredakteur der Zeitung betrachtete, geht sowohl aus der neuen Ankündigung in den verschiednen Zeitungen hervor, als daraus, daß ich Deinen Artikel über die Ausweisung des Frankfurter Flüchtlings unter Köln stellte.",
+                                          "Dein",
+                                          "Marx",
+                                          "[Nachschrift von Wilhelm Wolff]",
+                                          "Dem Obigen vollständig beistimmend"
+                                   ],
+                                   "title": "Karl Marx aus Köln an Ernst Dronke in Paris, 3. Februar 1849"
+                            }
                      },
                      {
-                            "de": {
-                                   "title": "Jenny Marx aus Trier an Caroline Schoeler in Köln, 29. Juni 1849",
-                                   "content": [
-                                          "[…] Du kannst [Dir] denken, wieviel kleinliche Berührungen es im täglichen Leben gibt, und ich kann sagen, ich habe hier noch nicht frei geatmet. Dazu ist Trier auch sonst noch das kleinste, erbärmlichste Nest, voll von Klatsch und lächerlicher Lokalvergötterung."
-                                   ]
-                            },
+                            "source": "MEW, Bd. 27, Brief 95 (an Dritte).",
                             "en": {
-                                   "title": null,
-                                   "content": []
+                                   "content": [],
+                                   "title": null
                             },
-                            "source": "Marx-Engels-Nachlass, Sign. F 62, Internationales Institut für Sozialgeschichte, Amsterdam; zitiert nach: Rolf Hecker, Angelika Limmroth (Hg.): Jenny Marx. Die Briefe, Berlin 2014, S. 88.",
-                            "has_en": false
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Was machst Du eigentlich in Genf? Man spricht davon, daß Du Gatte und Vater seist und daneben mit Moses sehr freundschaftlich ständest – aus Rücksichten für die Mösin. Nach andern soll das alles pure Verleumdung sein, aber das wäre hier – bei zehn Breitengraden Entfernung – schwer zu entscheiden. Freiligrath ist auch in London und gibt einen neuen Band Gedichte heraus. Weerth ist in Hamburg und schreibt, wie ich, bis zur nächsten Paukerei Handlungsbriefe. Er hat von seiner spanischen Reise nichts mitgebracht, nicht einmal einen Tripper. Übrigens kommt er diesen Monat nach London. Der rote Wolff hat verschiedne Phasen des Irländertums, […] der Verrücktheit und andrer interessanter Zustände durchgemacht und den Schnaps vollständig mit dem half and half [½ Porter, ½ Ale] vertauscht. Der père Marx geht tagtäglich auf die Bibliothek und vermehrt in erstaunlicher Weise seine Kenntnisse, aber auch seine Familie.",
+                                          "Ich endlich trinke Rum und Wasser, ochse und mache in Twist und Langeweile. Das ist das Resümee der Personalia."
+                                   ],
+                                   "title": "Friedrich Engels aus Manchester an Ernst Dronke in Genf, 9. Juli 1851"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 28, Brief 110.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Ich habe mich übrigens jetzt, wo manches erst herausgesprochen wird, überzeugt, daß Dronke eine sehr miserable Klatsch-, Cancan- und Lügenrolle auf meine Kosten gespielt hat. Allerdings die einzige Tätigkeit, wozu der wichtigtuende Miniatur- und wouldbe-Blanqui fähig war. Bei seinem vielen Cancanieren wurde er so verlogen von Kopf bis Fuß, daß er selbst nicht mehr wußte, was er sagte oder gesagt hatte."
+                                   ],
+                                   "title": "Karl Marx aus London [28, Dean Street] an Friedrich Engels in Manchester, 21. Mai 1853"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 28, Brief 125.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Frederic!",
+                                          "[…] Der brave Kleine [Ernst Dronke] hat so wacker gestänkert, […] daß ich gestern abend eine Szene hatte, die unglaublich ist.",
+                                          "Ich saß am Arbeiten. Frau und Kinder im Zimmer. Herein tritt Lupus mit sehr gewichtigem Schritt – ich vermute, um endlich Abschied zu nehmen, da er nie in meinem Hause ein Wort hatte fallen lassen über die bevorstehende Abreise.",
+                                          "Ich hatte eine kleine spanische Grammatik von ihm geliehn, vor einem Jahre, […] Diese Scheiße habe ich ihm, soviel ich mich erinnere, vor 5 Monaten zurückgegeben. […]",
+                                          "Gestern abend also – der Kerl trat gleich knurrend herein – sage ich ihm, in möglichst besänftigendem Tone, ich könne den Dreck nicht finden, ich habe überall danach gesucht, ich glaube ihm denselben zurückerstattet zu haben etc. etc. Antwortet der Bursche in bäurisch-tölpelhaft-unverschämtem Ton: „Du hast es verklopft.“ (Nämlich eine Scheiße, für die ich jedem einen Sovereign gebe, wenn er in ganz London 2 farthing dafür erhält.) Ich springe natürlich auf, folgt Wortwechsel, er verharrt wie ein störrisches Pferd auf seinem Blödsinn, injuriert mich also „au sein de ma famille“. Du weißt, daß ich idiotisch gewordnen alten Männern, die als Parteitradition venerabel sind, viel nachsehe. Indes hat das seine Grenzen. Ich glaube, der alte Narr hat sich gewundert, daß ich ihm endlich die Zähne wies.",
+                                          "Dies alles ist das Resultat Dronkescher Intrigen, eines zu konstanten Genusses von Gin und einer Vertrocknung der Hirnsäfte."
+                                   ],
+                                   "title": "Karl Marx aus London [28, Dean Street] an Friedrich Engels in Manchester, 7. September 1853"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 28, Brief 165.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Dronke ist von einem Cab umgefahren worden, wie immer besoffen, und liegt im Bett; wird in 8–10 Tagen das Zimmer nicht verlassen können, sonst nichts Ernstliches."
+                                   ],
+                                   "title": "Friedrich Engels aus Manchester an Karl Marx in London, 10. Juni 1854"
+                            }
                      }
               ],
-              "name": {
-                     "de": "Briefe Trier",
-                     "en": "Letters Trier"
-              }
+              "slug": "ernst_dron"
        },
        {
-              "slug": "trier_family",
               "has_en": false,
+              "name": {
+                     "en": null,
+                     "de": "Moses Heß"
+              },
               "letters": [
                      {
-                            "de": {
-                                   "title": "Heinrich Marx an die Immediat-Justizkommission in Düsseldorf (mit der Bitte, einen von ihm verfassten Aufsatz anonym zu veröffentlichen), 17. Januar 1817",
-                                   "content": [
-                                          "[…] Aber leider sind meine Verhältnisse von der Art, daß ich als Familien Vater etwas behutsam seyn muß. Die Sekte, an welcher die Natur mich gekettet, ist, wie bekannt, in keinem besonderen Ansehn, und die hiesige Provinz gerade nicht die Toleranteste. Und wenn ich viel und manches Bittere erdulden, und mein kleines Vermögen beynahe gänzlich zusetzen mußte, bis man sich nur entschließen konnte zu glauben, ein Jude könne auch etwas Talent haben, und rechtlich seyn: so kann es mir wohl nicht verübelt werden, wenn ich einigermaßen scheu geworden bin."
-                                   ]
-                            },
+                            "source": "MEW, Bd. 31, Brief 21.",
                             "en": {
-                                   "title": null,
-                                   "content": []
+                                   "content": [],
+                                   "title": null
                             },
-                            "source": "Landesarchiv Nordrhein-Westfalen Abteilung Rheinland (Düsseldorf), Akten der Immediat-Justiz-Kommission Nr. 44, Blatt 74; zitiert nach: Heinz Monz: Die rechtsethischen und rechtspolitischen Anschauungen des Heinrich Marx, in: Archiv für Sozialgeschichte Bd. VIII, 1968, S. 276.",
-                            "has_en": false
-                     },
-                     {
+                            "has_en": false,
                             "de": {
-                                   "title": "Caroline von Westphalen aus Trier an Friedrich Perthes in Gotha, 21. Dezember 1826",
                                    "content": [
-                                          "[…] Ein herrlicher Charakter durch den ich hienieden einen Himmel genieße, alle Stürme des Lebens tragen wir mit Liebe untereinander, denn oft hat freilich das Schicksal unsanft an uns gezerrt, aber wer eine solche Stütze hat wie ich an ihm habe, da sinkt mein Fus nicht."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Stadtarchiv Hamburg, Nachlass der Familie Perthes I 16 d, Blatt 8384; zitiert nach: Heinz Monz: Karl Marx. Grundlagen der Entwicklung zu Leben und Werk, Trier 1973, S. 329f.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Ferdinand von Westphalen aus Trier an Louise von Florencourt in Braunschweig, 1. Dezember 1829",
-                                   "content": [
-                                          "[…] In dem Hause meines lieben Vaters giebt’s nichts Neues, aber es freut mich vor Allem, daß er so wohl und heiter ist. Seine Damen benehmen sich ganz artig, jedoch laße ich mich mit ihnen nicht vertraulich in wichtige Unterhaltung ein, und setze ihnen in der Regel ein ernstes etwas phlegmatisches Antlitz entgegen. Etwas piquirt äußern sie sich zuweilen, daß ich ihres Raths […] mich nicht bedürftig zeige […]. Von dir, meine liebe Louise, sprechen sie nicht – muß ich der Wahrheit treu hinzusetzen. Wenn gleich mich dies auf der einen Seite kränkte, so bin ich auf der anderen doch damit zufrieden […] mit diesen gleichgültigen abstoßenden Personen mich in Unterhaltungen über das einzulaßen, was mir das Liebste und Edelste auf der Erde ist;"
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Landeshauptarchiv Sachsen-Anhalt, Abt. Dessau, Nachlass Familie von Westphalen E 106, Nr. 14; zitiert nach: Heinrich Gemkow: Aus dem Leben einer rheinischen Familie im 19. Jahrhundert. Archivalische Funde zu den Familien von Westphalen und Marx, in: Jahrbuch für westdeutsche Landesgeschichte, 34. Jg. 2008, S. 497–524, hier: S. 511.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Henriette Marx aus Trier an Karl Marx in Bonn, 29. November 1835",
-                                   "content": [
-                                          "[…] wir sind der Himmel sey dank noch alle recht gesund alles ist thätig und fleysig auch der Eduard selbst plagt sich so das wir hoffen noch einmahl ein tüchtigen Mann aus Ihm zu machen […]."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEW, Bd. 40, S. 619.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Carl von Westphalen aus Trier an Ferdinand von Westphalen in Erfurt, 11. Februar: 1836",
-                                   "content": [
-                                          "[…] Seit dem December ist nun auch der Unterricht im Englischen bei dem kenntnißvollen und tüchtigen Sprachlehrer Thomton in Gang gekommen. Leider aber spricht er kein Deutsch, so daß wir bei ihm […] in’s Französische, was er sehr gut spricht, übersetzen müssen, was mir viel Schwierigkeiten macht, zumal ich keine Zeit habe, mich vorzubereiten. Jenny dagegen und jetzt auch Edgar machen große Fortschritte. Die Unterrichtsstunden werden 3 Mal die Woche von 2-3 Uhr gehalten.",
-                                          "Vom lieben Vater wirst Du auch, wissen, daß ich Mittags und Abends bei den Eltern esse. Gewöhnlich gehe ich des Abends um 8 Uhr zu ihnen, und bald nachher pflegt dann auch der Vater vom Casino heimzukehren und uns eine Uebersicht der Zeitungs-Neuigkeiten zu liefern. So kommt es dann sehen zur Lectüre, für welche hier auch in der That, wenigstens für die deutsche Literatur, durch den Leihbibliothekar wenig Erklekliches geliefert wird, und aus den Buchhandlungen nur für schweres Geld etwas Genießbares zu haben ist. Jenny aber liest viel Französische Bücher aus einem […] neu arrangirten Lesezirkel.",
-                                          "[...] Jenny war zu einer auf einem Maskeradeball in der Erholungsgesellschaft aufzuführenden Quadrille, wozu sich 12 Paare vereinigt hatten, ebenfalls engagirt worden, jedoch nachher zu unsrer Aller Genugthuung zurückgetreten, da wir fürchteten, daß ihre bisher ganz wieder emporgekommene Gesundheit durch die vielen damit verknüpften Anstrengungen leiden könnte, überdies auch manche Kosten dadurch verursacht würden."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Landeshauptarchiv Sachsen-Anhalt, Abt. Dessau, Nachlass Familie von Westphalen E 106, Nr. 46; zitiert nach: Heinrich Gemkow: Aus dem Leben einer rheinischen Familie im 19. Jahrhundert. Archivalische Funde zu den Familien von Westphalen und Marx, in: Jahrbuch für westdeutsche Landesgeschichte, 34. Jg. 2008, S. 497–524, hier: S. 514.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Heinrich Marx aus Bad Ems an Karl Marx in Berlin, 12. August 1837",
-                                   "content": [
-                                          "[…] Eduard kränkelt seit Sechs Monaten und ist [ganz] abgemagert, sein Aufkommen sehr zweifelhaft, und was bey Kinder so selten und so höchst angreifend ist, von der tiefsten Melankolie – eigentlich Furcht zu sterben –. Du kennst nun die Mutter. Sie weicht nicht von seiner Seite, ist Tag und Nacht geketzert, und ich in der ewigen Furcht, daß sie diesen Anstrengungen unterliegen würde."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEGA2, Abt. III, Bd. 1, S. 311–314.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Carl von Westphalen aus Trier an Ferdinand von Westphalen in Erfurt, 22. September 1837",
-                                   "content": [
-                                          "[…] Jenny hat sich nun nachgerade von den Mühseligkeiten der Reise, die sie doch sehr angegriffen hatte, etwas erholt. Die Reise nach Frankfurt, die fast ununterbrochene Conversation auf derselben, das viele Umherlaufen auf der Messe und die nächtliche Fahrt nach Mainz hatten sie leider so ermüdet, daß sie von der schönen Wasserparthie bis Coblenz wenig genossen hat. Uebrigens war sie mit mir der Meinung, daß unsere Gegend bei Trier doch eigentlich von keiner der Rheingegenden, welche wir passirten, übertroffen werde. Dagegen fand sie das Leben dort viel interessanter als hier. Denn uns fehlen die größeren geistigen Genüsse hier, und der unermeßliche Menschen-Wirrwarr und all die schönen Luxus-Gegenstände und Annehmlichkeiten des Lebens, die durch die Messe und Fremde dort hingebracht werden."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Landeshauptarchiv Sachsen-Anhalt, Abt. Dessau, Nachlass Familie von Westphalen E 106, Nr. 18; zitiert nach: Heinrich Gemkow: Aus dem Leben einer rheinischen Familie im 19. Jahrhundert. Archivalische Funde zu den Familien von Westphalen und Marx, in: Jahrbuch für westdeutsche Landesgeschichte, 34. Jg. 2008, S. 497–524, hier: S. 519.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Ferdinand von Westphalen aus Trier an seine Frau Louise in Braunschweig, 30./31. Mai 1838",
-                                   "content": [
-                                          "[…] Carl besucht mich zuweilen des Abends spät; aber seit Montag ist auch er an sein Amtsgeschäft zurückgekehrt, und da sehen wir uns oft blos beim Mittagessen bei den Eltern. Mit seiner Gesundheit geht es Gott sei Lob immer noch gut; wenn er sich nur auf dem Gericht nicht wieder vor der Badereise etwas Schlimmes holt! - Jenny wird ja nur um des Vergnügens willen die Reise mitmachen, verstehe das, wer mag - besonders nach dem betrübenden Tode des Vaters des C. Marx! Indessen ist es mir insofern nicht unlieb, als Carl dann eine Pflegerin bei sich hat, die ihm in schlimmen Fällen beistehen kann. Ueber ihr Verhältniß erfahre ich von ihr selbst nichts, da ich mit ihr darüber nicht spreche, u. sie auch keine Veranlassung dazu giebt. Die Vermögensumstände sind nur mittelmäßig."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Landeshauptarchiv Sachsen-Anhalt, Abt. Dessau, Nachlass Familie von Westphalen E 106, Nr. 19; zitiert nach: Heinrich Gemkow: Aus dem Leben einer rheinischen Familie im 19. Jahrhundert. Archivalische Funde zu den Familien von Westphalen und Marx, in: Jahrbuch für westdeutsche Landesgeschichte, 34. Jg. 2008, S. 497–524, hier: S. 520.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Franziska von Westphalen aus Berlin an Ferdinand von Westphalen in Liegnitz, 17. Oktober 1843",
-                                   "content": [
-                                          "[…] Die Mutter hat mir ohnlängst aus Trier geschrieben und mir dadurch große Freude bereitet, da sie mir sagt, daß es ihr wohl gehe, [...]. Die bisherigen schweren Erfahrungen werden, denke ich, dem Charakter der Mutter soviel Milde und Fügsamkeit aufgeprägt haben, als nothwendig ist, um die Eintracht in einem solchen, aus verschiedenen Elementen zusammengesetzten Verhältniß aufrecht, dasselbe überhaupt – und wie sehr müssen wir dies für ihre fernere Existenz wünschen – und dauernd zu erhalten. Gottlob ist sie jetzt nicht mehr wie bisher dem Einfluß Jennys unterworfen, der wohl nie ganz ohne Dornen war."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Landeshauptarchiv Sachsen-Anhalt, Abt. Dessau, Nachlass Familie von Westphalen E 106, Nr. 27; zitiert nach: Heinrich Gemkow: Aus dem Leben einer rheinischen Familie im 19. Jahrhundert. Archivalische Funde zu den Familien von Westphalen und Marx, in: Jahrbuch für westdeutsche Landesgeschichte, 34. Jg. 2008, S. 497–524, hier: S. 522.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Jenny Marx aus Trier an Karl Marx in Paris, 21. Juni 1844",
-                                   "content": [
-                                          "[…] Die arme Mutter hat nur jetzt gar zu viel Kosten und ist doch gar zu arm. Der Edgar plündert sie aus, und schreibt dann einen unsinnigen Brief nach dem anderen freut sich über die nahenden Revolutionen, den Umsturz aller Verhältnisse, statt damit anzufangen seine eignen Verhältnisse umzustürzen. […] Ach, hätte doch die arme Mutter nicht zu viele Sorgen und namentlich durch Edgar, der alle großen Zeichen der Zeit, alle Leiden der Gesellschaft alles nur benutzt, um seine eigne Nichtigkeit darunter zu decken und zu beschönigen. Nun kommen wieder die Ferien und dann wird wieder nichts aus dem Examen. Seine Arbeiten sind fertig. Es ist unverzeihlich. Die Mutter muß sich alles abdarben und er geht in Köln lustig in alle Opern, wie er selbst schreibt. Er spricht mit der größten Zärtlichkeit von seinem Schwesterchen, seinem Jennychen, ich kann aber unmöglich zärtlich gegen den Faselhans sein."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEW, Bd. 40, S. 647–650.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Edgar von Westphalen aus Köln an Werner von Veltheim in Ostrau, 15. Mai 1845",
-                                   "content": [
-                                          "[…] Ich ging nach Köln, um dort mein Glück zu versuchen. […] Sehr unköniglich gestimmt und gesinnt nahm ich sie doch an auf Zureden meiner Mutter, meines Schwagers und Jennys. Indessen der Druck blieb. Ich war die Juristerei herzlich satt, suchte mir auf andere Weise Geld zu verdienen, es ist heutzutage schwer in gewissen gegebenen Verhältnissen. Ich strebte täglich in die Welt hinauszugehen, der Gedanke an meine Mutter und eine andere hielten mich zurück. (Auch darüber, lieber Werner, gänzliches Stillschweigen.) Ich stak in Schulden und kam aus dem Pumpen in’s Pumpen. Das Schiff wurde immer lecker trotz allen Pumpens und obgleich mir öfter die größeren Rinnlöcher ausgestopft wurden. Obgleich ich Spekulanten und Wucherer als den Verderb der Menschheit haßte, spekulirte ich auch selbst von der äußersten Noth gedrängt. Es gibt keine einfachere Spekulation als das Spiel; keine bessere Gelegenheit für einen Kölner als Aachen. Ein paar mal gelang mir die Unternehmung, wenn es galt. Die Unterhaltung wurde reitzend. Das Resultat war aber kein glückliches und ich habe den Unsinn gelassen."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Landesarchiv Magdeburg, Rep. H, Ostrau, Nr. 1150, Bd. 1, Bl. 88/89; zitiert nach Heinrich Gemkow: Edgar von Westphalen, in: Jahrbuch für Westdeutsche Landesgeschichte, 25. Jg., 1999, S. 425f..",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Jenny Marx aus Brüssel an Caroline Schoeler in Köln, 17. Dezember 1847",
-                                   "content": [
-                                          "[…] Grade jetzt in der Weihnachtszeit denk ich immer mit der größten Wehmut an mein Mütterchen, an ihre Vereinsamung, ihr neigendes Leben. Nie steht ihr Bild verklärter und liebesreicher vor meiner Seele als gerade in diesen Tagen, wo sie uns Kinder stets so mütterlich beglückte, unsre kleinen Kinderherzen und Augen im Glanz des strahlenden Christbäumchens sich weideten, bis später, wo unsre Herzen schon größere, tiefere Wünsche und Hoffnungen hegten – immer hat sie mit gleicher Treue uns gehegt, gepflegt, beglückt und erheitert."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. F 59; zitiert nach: Rolf Hecker, Angelika Limmroth (Hg.): Jenny Marx. Die Briefe, Berlin 2014, S. 74–76.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Jenny Marx aus Trier an Caroline Schoeler in Köln, 29. Juni 1849",
-                                   "content": [
-                                          "[…] Ich gehe hier nicht auf Rosen. Dir, teure Lina, kann ich das sagen. Ich weiß, du wirst mir nachempfinden in allem, was ich Dir sage und nicht sagen kann. Mütterchen hat sich so sehr verändert – und Du weißt, wie furchtbar eine solche schmerzliche Wahrnehmung auf der liebenden Seele lastet. Gedrückte Lebensverhältnisse, Alter und Isolierung haben Eigenschaften in der sonst so liebreichen, milden Seele hervorgerufen, Härte, Selbstsucht, die den Nahestehenden bis ins Innerste verwunden."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. F 62; zitiert nach: Rolf Hecker, Angelika Limmroth (Hg.): Jenny Marx. Die Briefe, Berlin 2014, S. 88f.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Jenny Marx aus London an Karl Marx in Manchester, 1. Juni 1852",
-                                   "content": [
-                                          "[…] Leider aber ist statt des erwarteten Briefes beifolgender Wisch Deiner verehrten Frau Mutter eingegangen. […] Übrigens soll Emilie nach Mütterchens Privatmitteilungen sich heimlich in eine Liebschaft mit dem ganz armen, katholischen Landschaftsmaler Lasinsky eingelassen haben. Harter Stoß für die keusch bewahrte Familien-respectability."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEGA2, Abt. III, Bd. 5, S. 379–382.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Karl Marx aus London an Friedrich Engels in Manchester, 24. November 1858",
-                                   "content": [
-                                          "[…] In Trier scheint meine Schwester diesmal die ganz rationellen intentions meiner Mutter durchkreuzt oder wenigstens their realisation ins Unbestimmte prorogiert zu haben."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEW, Bd. 29, Brief 168.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Jenny Marx aus London an Friedrich Engels in Manchester, 23. oder 24. Dezember 1859",
-                                   "content": [
-                                          "[…] Da Karls Versuche, Geld aufzutreiben, alle scheiterten, entschloß ich mich in der äußersten emergency zu den unangenehmen Schritt, den ich bis dahin, selbst in den schlimmsten Zeiten, vermieden hatte. Obgleich mir Ferdinand den „Vorschuß“ abschlug, „da er selbst auf seine Pension beschränkt sei“, so bin ich nun doch durch den Brief in eine false position ihm gegenüber und habe mir selbst Hände und Füße gebunden. Ich werde mich einstweilen darauf beschränken müssen, ihm Vorwürfe zu machen über die sonderbare Art, mit der er meinen Vater in der Vorrede behandelt hat. Er behandelt selbst den verrückten, egoistischen Bruder [Heinrich Georg von Westphalen], der meinem Vater das Leben verbitterte und meiner Mutter bis zum letzten Lebensjahre eine jährliche Rente von ihrem kleinen Witwengehalte abpreßte, besser, anständiger und ausführlicher als unsern humanen, wahrhaft edeln und hochherzigen Vater. Freilich war letzterer nur „Shakespeare- nicht bibelfest“; ein Verbrechen, das ihm der pietistische Sohn noch in dem Grabe nicht verzeihen kann. Auch war es höchst sonderbar, da er überhaupt Familienverhältnisse berührte, der zweiten Heirat meines Vaters gar nicht zu erwähnen und die zweite Mutter nicht zu nennen, die das Lebensglück meines Vaters ausmachte und die ihre Stiefkinder mit einer Treue und Liebe und Aufopferung hegte und pflegte, wie sie kaum oft den eignen Kindern zuteil wird. Meinen Bruder Edgar und mich konnte er so geschickt um ihr, ihn störendes, Dasein bringen. Doch letzteres ist sehr gleichgültig und drückt mich wenig, nur Vater und Mutter dürften so nicht behandelt und umgangen werden — dafür muß er büßen."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEW, Bd. 29, Beilagen 10.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Karl Marx aus London an Friedrich Engels in Manchester, 28. November 1860",
-                                   "content": [
-                                          "[…] Unter den jetzigen Verhältnissen wäre es scheinbar passend, meiner Alten zu schreiben. Aber seitdem sie [Emilie] den preußischen Unteroffizier [Johann Conradi] ins Haus geheiratet, hat aller intercourse infolge einiger Bemerkungen meinerseits aufgehört."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEW, Bd. 30, Brief 72.",
-                            "has_en": false
-                     },
-                     {
-                            "de": {
-                                   "title": "Karl Marx aus Trier (anlässlich des Todes seiner Mutter) an Jenny Marx in London, 15. Dezember 1863",
-                                   "content": [
-                                          "[…] Wenn ich Dir so spät erst schreibe, geschah es sicher nicht aus Vergeßlichkeit. Umgekehrt. Ich bin täglich zum alten Westphalschen Hause gewallfahrt (in der Römerstraße), das mich mehr interessiert hat als alle römischen Altertümer, weil es mich an die glücklichste Jugendzeit erinnert und meinen besten Schatz barg. Außerdem fragt man mich täglich, links und rechts, nach dem quondam „schönsten Mädchen von Trier“ und der „Ballkönigin“. Es ist verdammt angenehm für einen Mann, wenn seine Frau in der Phantasie einer ganzen Stadt so als „verwunschene Prinzessin“ fortlebt."
-                                   ]
-                            },
-                            "en": {
-                                   "title": null,
-                                   "content": []
-                            },
-                            "source": "MEW, Bd. 30, Brief 94 (an Dritte).",
-                            "has_en": false
+                                          "[…] Das „Social-Demokrätchen“ [„Der Sozialdemokrat“, Zeitung des ADAV] wird mir alle Tage widerlicher. Dieser Scheiß-[Moses] Heß, der sich uns gegenüber als wirklicher geheimer Lassallescher Angestellter mit einer Protektormiene geriert; die tiefsinnigen beschissenen Artikel des Herrn [Johann Baptist von] Schweitzer über Enzyklika und Bismarck, die mit allem Schund kokettieren und bloß auf die Bürger schimpfen, die totale Abmattung und Talentlosigkeit und selbst Abwesenheit alles gesunden Menschenverstandes mit Ausnahme von ein paar Sachen, das alles ist etwas zu viel für mich. Dreimal in der Woche Lassalle-Kultus, das halt' der Teufel aus, und es ist gut, daß die Krisis kommt.[…]"
+                                   ],
+                                   "title": "Friedrich Engels aus Manchester an Karl Marx in London, 5. Februar 1865"
+                            }
                      }
               ],
+              "slug": "mos_hess"
+       },
+       {
+              "has_en": false,
               "name": {
-                     "de": "Trier Familie",
-                     "en": "Trier Family"
-              }
+                     "en": null,
+                     "de": "Köln"
+              },
+              "letters": [
+                     {
+                            "source": "MEW, Bd. 27, Brief 8 (an Dritte).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Schicken Sie mir den Aufsatz von Mayer in der „Rheinischen Zeit[ung]“ über das Kommunalwesen und, wo möglich, sämtliche Aufsätze von [Karl Heinrich] Hermes gegen das Judentum. Ich will Ihnen dann sobald als möglich einen Aufsatz schicken, der letztere Frage, wenn auch nicht abschließen, doch in eine andere Bahn bringen wird. […]",
+                                          "Wenn es mit Ihrer Ansicht von der Sache übereinstimmt, so schicken Sie mir auch den Juste-milieu-Artikel zur Kritik. Man muß die Sache leidenschaftslos besprechen. […]",
+                                          "Der Verfasser des Juste-milieu-Artikels fordert zur Kritik auf; aber 1. wissen wir doch alle, wie die Regierungen auf solche Herausforderungen antworten; 2. ist es nicht genug, daß jemand sich der Kritik unterwirft, die ihn ohnehin nicht um Erlaubnis fragen wird; es fragt sich, ob er das gehörige Terrain auswählt. Zeitungen fangen erst dann an, das passende Terrain für solche Fragen zu sein, wenn diese Fragen, Fragen des wirklichen Staats, praktische Fragen geworden sind. Ich halte es für unumgänglich, daß die „Rh[einische] Zeitung“ nicht sowohl von ihren Mitarbeitern geleitet wird, als daß sie vielmehr umgekehrt ihre Mitarbeiter leitet. Aufsätze wie der berührte geben die beste Gelegenheit, einen bestimmten Operationsplan den Mitarbeitern anzudeuten. Der einzelne Schriftsteller kann nicht in der Weise das Ganze vor Augen haben, als die Zeitung."
+                                   ],
+                                   "title": "Karl Marx aus Trier an Dagobert Oppenheim in Köln, 25. August 1842"
+                            }
+                     },
+                     {
+                            "source": "MEGA2, Abt. III, Bd. 1, S. 396–398.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Aber das ist nun einmal nicht unser [der Frauen] Loos, daß wir auch mit in den Schicksals Räder thatkräftig eingreifen sollten. Wir sind vom Sündenfall, von Madame Eva‘s Verstoß her, zur Passivität verurtheilt, unser Loos ist das Warten, hoffen, dulden, leiden. Höchstens wird uns der Strickstrumpf, die Nadel, der Schlüssel anvertraut, und was darüber ist vom Übel; […] Sieh Herzchen da bin ich bei Dir und dann kaufen wir zusammen und betriegt man uns dann, geschieht’s doch in Compagnie – bitte Herzchen laß das Kaufen jetzt. Auch mit dem Blumengirlandchen. Ich fürcht‘ Du mußt zuviel geben und zusammen auszusuchen wär doch gar zu nett. Gehst du von den Blumen nicht ab, so nimm sie in rosa. Das paßt am besten zu meinem grünen Kleid."
+                                   ],
+                                   "title": "Jenny von Westphalen in Kreuznach an Karl Marx in Köln, Anfang März 1843"
+                            }
+                     },
+                     {
+                            "source": "Landeshauptarchiv Sachsen-Anhalt, Abt. Dessau, Nachlass Familie von Westphalen E 106, Nr. 27; zitiert nach: Heinrich Gemkow: Aus dem Leben einer rheinischen Familie im 19. Jahrhundert. Archivalische Funde zu den Familien von Westphalen und Marx, in: Jahrbuch für westdeutsche Landesgeschichte, 34. Jg. 2008, S. 497–524, hier: S. 522 (Auszug).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Wie mir die Mutter schreibt, so ist die Schwester mit dem Dr. Marx wahrscheinlich schon in Paris oder auf dem Wege dahin. Welchem Geschäft er sich dort zu widmen beabsichtigt, schreibt sie mir nicht, nur soviel fügt sie hinzu, daß es ein großes Unternehmen sei, an dem sehr viele angesehene Kaufleute in Cöln Theil nähmen. Ich zerbreche mir den Kopf über dessen Beschaffenheit. Vielleicht kannst Du mir auf die Sprünge helfen. Wenn nur nicht wieder das Unternehmen einen abentheuerlichen Grund hat, und wie es dem pp. Marx bisher immer gegangen zu sein scheint – in Wohlgefallen sich auflöst […] Sie erscheinen mir unendlich beklagenswert; die Mutter in ihrer gänzlichen Verlassenheit, in ihrem vereinsamten, trostlosen, ungepflegten Alter, – der Dr. Marx u. Jenny in ihrer Verblendung u. Abhängigkeit von Grundsätzen u. einer Verstandesrichtung, die sie im Stich lassen werden, wohin sie sich auch wenden mögen, u. in Folge davon sie, fürchte ich, heimathlos wie Flüchtlinge von Ort zu Ort, Land zu Land zu ziehen genöthigt sein werden."
+                                   ],
+                                   "title": "Franziska von Westphalen aus Berlin an ihren Bruder Ferdinand in Liegnitz, 1843"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 30.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Engels!",
+                                          "Es ist hier schon ziemlich viel gezeichnet, und wir werden wohl bald anfangen können. Jetzt ist es aber nötig, daß Du Deinem Alten gegenüber Forderungen stellst und überhaupt definitiv erklärst, was in Barmen und Elberfeld zu machen ist.",
+                                          "An Hecker in Elberfeld hat man von hier einen Prospekt (von Bürgers geschrieben) etc. hingeschickt.",
+                                          "Hast Du keine Adresse für Dronke? Dem muß sofort geschrieben werden. Antworte umgehend. Ich würde einmal da herüberkommen, sähe es nicht zu ängstlich bei Euch aus."
+                                   ],
+                                   "title": "Karl Marx aus Köln [Apostelnstraße Nr. 7] an Friedrich Engels in Barmen, vor dem 25. April 1848¹"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 31.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Marx,",
+                                          "Den Prospekt erhalte ich soeben nebst Deinem Brief. Auf Aktien von hier ist verdammt wenig zu rechnen. Der Blank, an den ich schon früher deswegen geschrieben und der noch der beste von allen ist, ist in praxi ein Bourgeois geworden; die andern noch mehr, seit sie etabliert sind und mit den Arbeitern in Kollisionen gekommen. […] Die Sache ist au fond die, daß auch diese radikalen Bourgeois hier in uns ihre zukünftigen Hauptfeinde sehen und daß sie uns keine Waffen in die Hand geben wollen, die wir sehr bald gegen sie selbst kehren würden.",
+                                          "Aus meinem Alten ist vollends nichts herauszubeißen. Für den ist schon die „Kölner Zeitung“ ein Ausbund von Wühlerei, und statt 1000 Talern schickte er uns lieber 1000 Kartätschkugeln auf den Hals. […]",
+                                          "Von Dronke hab' ich keine andre Adresse als etwa die: Kaufmann Adolf Dominicus in Koblenz (sein Onkel). […]",
+                                          "Ew[erbeck] läßt in Paris das „Manifest“ ins Italienische und Spanische übersetzen […].",
+                                          "Ich bin an der englischen Übersetzung, die mehr Schwierigkeiten macht, als ich glaubte. […]",
+                                          "Wenn ein einziges Exemplar unsrer 17 Punkte [„Forderungen der Kommunistischen Partei in Deutschland“] hier verbreitet würde, so wär' hier alles verloren für uns. Die Stimmung bei den Bourgeois ist wirklich niederträchtig. Die Arbeiter fangen an, sich etwas zu regen, noch sehr roh, aber massenhaft."
+                                   ],
+                                   "title": "Friedrich Engels aus Barmen an Karl Marx in Köln, 25. April 1848"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 33.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Engels!",
+                                          "Da Dein Brief erst jetzt abends ankömmt, ist es keine Zeit mehr, nach Wechseln sich umzutun. Es ist selbst nicht mehr Zeit, nach meinem Hause zu gehn. Ich schicke Dir Einliegendes, was grade vorrätig ist, und zudem eine Anweisung von 50 Taler von Schulz auf einen Bürger in Genf, wo Du auch sonstige Hülfe finden kannst.",
+                                          "Ich habe schon vor langer Zeit an Dich und Dronke nach Paris 50 Taler und zugleich nach Brüssel an Gigot Deinen Paß geschickt."
+                                   ],
+                                   "title": "Karl Marx aus Köln an Friedrich Engels in Genf, 26. Oktober 1848¹"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 34.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Engels!",
+                                          "Ich bin wahrhaft überrascht, daß Du noch kein Geld von mir erhalten hast. Ich (nicht die Expe–dition) habe Dir seit undenklicher Zeit 61 Taler, 11 in Papier, 50 in Wechsel, nach Genf geschickt, eingeschlagen in die angegebne Adresse. Also erkundige Dich und schreib sogleich. Ich habe einen Postzettel und kann das Geld reklamieren.",
+                                          "Ich hatte ferner an Gigot 20 und später an Dronke 50 Taler für Euch geschickt, immer aus meiner Kasse. Summa – 130 Taler ungefähr.",
+                                          "Ich werde Dir morgen wieder einiges schicken. Aber erkundige Dich nach dem Geld. Es war in dem Wechsel zugleich eine Empfehlung Deiner an einen Lausanner Geldphilister.",
+                                          "Ich bin mit dem Geld beschränkt. 1850 Taler hatte ich von der Reise mitgebracht; 1950 bekam ich von den Polen.1 100 brauchte ich noch auf der Reise. 1000 Taler habe ich der Zeitung (mit dem Dir und andern Flüchtlingen) vorgeschossen. 500 in dieser Woche noch zu zahlen für die Maschine. Bleibt 350. Und dabei habe ich noch keinen Cent von der Zeitung erhalten.",
+                                          "Was Eure Redakteurschaft angeht, so habe ich 1. in der ersten Nummer gleich angezeigt, daß das Komitee dasselbe bleibt, 2. den blödsinnigen reaktionären Aktionären erklärt, daß es ihnen frei–stünde, Euch als nicht mehr zum Redaktionspersonal gehörig zu betrachten, daß es mir aber frei–stehe, so hohe Honorare auszuzahlen, als ich will, und daß sie daher pekuniär nichts gewinnen werden. […]",
+                                          "Daß ich einen Augenblick Dich im Stich hätte lassen können, ist reine Phantasie. Du verbleibst stets mein Intimus, wie ich hoffentlich der Deine.",
+                                          "K.Marx",
+                                          "Dein Alter ist ein Schweinhund, dem wir einen hundsgroben Brief schreiben werden."
+                                   ],
+                                   "title": "Karl Marx aus Köln an Friedrich Engels in Lausanne, Mitte November 1848"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 35.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Schreib ausführlich über Proudhon, und da Du guter Geograph bist, über die ungarische Scheiße (den Völkerbienenschwarm). Vergiß mich bei Proudhon nicht, da unsre Artikel jetzt in sehr viele französische Blätter übergehn.",
+                                          "Schreib auch gegen die Föderativrepublik, wozu die Schweiz beste Gelegenheit bietet.",
+                                          "K. Heinzen [„Die Helden des teutschen Kommunismus“] hat seinen alten Schund gegen uns veröffentlicht. […]",
+                                          "Ich habe einen sichern Plan entworfen, Deinem Alten Geld auszupressen, da wir jetzt keins haben. Schreib einen Geldbrief (möglichst kraß an mich), worin Du Deine bisherigen Fata erzählst, aber so, daß ich ihn Deiner Mutter mitteilen kann. Der Alte fängt an, Furcht zu bekommen."
+                                   ],
+                                   "title": "Karl Marx aus Köln an Friedrich Engels in Bern, 29. November 1848"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 36.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Marx,",
+                                          "Wie ist's? Kann ich jetzt, nach G[ottschalks] und A[nneke]s Freisprechung, noch nicht bald zurück? Die preußischen Hunde müssen jetzt doch bald die Lust verlieren, sich mit den Geschwornen einzulassen. Wie gesagt, wenn genügender Grund vorhanden, daß kein Untersuchungsarrest zu befürchten, komm ich sofort. Nachher können sie meinetwegen mich vor 10.000 Jurys stellen, aber im Untersuchungsarrest kann man nicht rauchen, und da geh' ich nicht hinein. […]",
+                                          "Apropos, gegen Mitte Januar wäre mir einiges Geld sehr erwünscht. Bis dahin kommt Euch ja eine Masse ein."
+                                   ],
+                                   "title": "Friedrich Engels aus Bern an Karl Marx in Köln, 28. Dezember 1848"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 50 (an Dritte).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Ihre Paßangelegenheiten hoffe ich, trotz Geigers Böswilligkeit, in 2–3 Tagen endlich erledigt zu sehn.",
+                                          "Müssen Sie Wien meiden – was ein unersetzlicher Verlust für die Zeitung wäre und in welchem Falle Sie einen Stellvertreter für die Tagesdata ernennen müssen – so schiene mir Breslau noch der geeignetste Aufenthalt. Ich denke sehr oft mit Kummer an Ihre Frau, die ein bequemeres Los verdient. […]",
+                                          "Schreiben Sie baldmöglichst. In Frankreich geht der neue Tanz im Frühling los. Die Infamie der Bourgeoisrepublik ist zu rasch zur „Blüte ihrer Sünden“ fortgegangen."
+                                   ],
+                                   "title": "Karl Marx aus Köln an Eduard Müller-Tellering¹ in Ratibor, 15. Januar 1849"
+                            }
+                     },
+                     {
+                            "source": null,
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Mein Herr!",
+                                          "Vorgestern begaben sich zwei Unteroffiziere der 8. Komp. 16. Infanterieregiment, nach meiner Wohnung, um mich privatim zu sprechen. Ich war nach Düsseldorf verreist. Sie wurden daher abgewiesen. Gestern nachmittag fanden sich wieder zwei dieser Herrn ein und verlangten eine Privatunterhaltung.",
+                                          "Ich ließ sie in ein Zimmer führen, wohin ich ihnen alsobald nachfolgte. Ich bat die Herrn Platz zu nehmen und fragte sie, was sie wünschten? Sie erklärten, sie wünschten den Namen des Verfassers des Artikels […]  gegen Herrn Hauptmann v. Uttenhoven zu erfahren. Ich antwortete den Herrn,",
+                                          "1. daß der fragliche Artikel mich nichts angehe, da er hinter dem Striche stehe, also Inserat sei; 2. daß es ihnen freistehe, eine Gegenerklärung gratis einzurücken; 3. daß es ihnen freistehe, die Zeitung gerichtlich zu belangen. Auf das Bemerken der Herrn, daß die ganze 8te Kompanie sich durch jenes Inserat beleidigt fühle, erwiderte ich, daß nur die Unterschriften aller Glieder der 8. Kompanie mich von der Richtigkeit dieser Aussage überzeugen könnte, die übrigens irrelevant sei.",
+                                          "Die Herrn Unteroffiziere erklärten mir hierauf, wenn ich den „Mann“ nicht nenne, „ausliefere“, könnten sie „ihre Leute nicht mehr zurückhalten“, und es würde „Schlimmes absetzen“.",
+                                          "Ich erwiderte den Herrn, durch Drohungen und Einschüchterungsmittel richte man bei mir am allerwenigsten aus. Sie entfernten sich sodann, zwischen den Zähnen murmelnd.",
+                                          "Es muß weit mit der Auflösung der Disziplin gekommen sein, es muß aller Sinn für gesetzliche Ordnung aufgehört haben, wenn die Kompanien gleich Räuberbanden Abgeordnete an einzelne Bürger schicken und ihnen durch Androhungen dieses oder jenes Zugeständnis abtrotzen wollen.",
+                                          "Namentlich begreife ich den Sinn des Satzes nicht: „Wir können unsre Leute nicht mehr zurückhalten.“ Haben diese „Leute“ etwa auf ihre eigne Hand eine Jurisdiktion auszuüben, stehn diesen „Leuten“ noch andre als gesetzliche Rekursmittel zu Gebot?",
+                                          "Ich muß Sie bitten, Herr Oberst, eine Untersuchung über diesen Vorfall einzuleiten und mich über jene sonderbare Anmaßung aufzuklären. Ich würde bedauern, zur Öffentlichkeit meine Zuflucht nehmen zu müssen."
+                                   ],
+                                   "title": "Karl Marx aus Köln an den Obersten Engels [preuß. Stadtkommandant] in Köln, 3. März 1849 (Entwurf)"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Brief 53/54 (an Dritte).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Ich nehme um so lieber Abstand von einem Antrage auf weitere Untersuchung, als es mir nicht um Bestrafung der Herrn Unteroffiziere, sondern nur darum zu tun war, sie durch den Mund ihrer Vorgesetzten auf die Schranken ihrer Attributionen aufmerksam zu machen. Was Ihre gütige Schlußbemerkung betrifft, so hat die „Neue Rheinische Zeitung“ durch ihr Stillschweigen über die letzten im Militär selbst vorgefallnen Reibungen gezeigt, wie sehr sie die herrschende Aufregung der Gemüter zu berücksichtigen weiß."
+                                   ],
+                                   "title": "[Erwiderung auf das vermutl. Antwortschreiben von Engels, 5. März 1849 (Entwurf)]"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 27, Beilagen 6.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Mein Mann ist hier fast erdrückt worden von den kleinlichsten Sorgen des bürgerlichen Lebens, und zwar in einer so empörenden Form, daß die ganze Energie, das ganze ruhige, klare, stille Selbstbewußtsein seines Wesens nötig waren, um ihn in diesen täglichen, stündlichen Kämpfen aufrechtzuerhalten. Sie wissen, lieber Herr Weydemeyer, welche Opfer mein Mann der Zeit[ung] brachte, Tausende steckte er bar hinein, das Eigentum der Zeitung übernahm er, beschwatzt durch die demokratischen Biedermänner, die sonst selbst für die Schulden hätten haften müssen, zu einer Zeit, wo schon wenig Aussicht mehr zur Durchführung da war. Um die politische Ehre des Blattes, um die bürgerliche Ehre der Kölner Bekannten zu retten, ließ er sich alle Lasten aufbinden, seine Maschine gab er hin, alle Einnahmen gab er hin, ja beim Fortgehn borgte er 300 Reichstaler, um die Miete für das neugemietete Lokal, um die rückständigen Honorare für Redakteure etc. zu zahlen – und er war gewaltsam vertrieben.",
+                                          "Sie wissen, daß wir von allem nichts für uns übrigbehalten, ich kam nach Frankfurt, um mein Silber zu versetzen, das Letzte, was wir hatten; in Köln ließ ich meine Möbel verkaufen, weil ich Gefahr lief, Wäsche und alles mit Beschlag belegt zu sehen."
+                                   ],
+                                   "title": "Jenny Marx aus London an Joseph Weydemeyer in Frankfurt, 20. Mai 1850"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 98.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Die Kölner haben schön mit meiner Bibliothek gewirtschaftet. Den ganzen Fourier gestohlen, ditto Goethe, ditto Herder, ditto Voltaire und, was mir das Scheußlichste, die „Economistes du 18 siècle“ (ganz neu, kosteten mir an 500 frs.) und viele Bände der griechischen Klassiker, viele einzelne Bände von andren Werken. Sollte ich nach Köln kommen, so werde ich mit Nationalvereinler Bürgers ein Wort darüber sprechen. Hegels „Phänomenologie“ und „Logik“ ditto."
+                                   ],
+                                   "title": "Karl Marx aus London an Friedrich Engels in Manchester, 27. Februar 1861"
+                            }
+                     }
+              ],
+              "slug": "koeln"
+       },
+       {
+              "has_en": false,
+              "name": {
+                     "en": null,
+                     "de": "Georg Weerth"
+              },
+              "letters": [
+                     {
+                            "source": "MEW, Bd. 28, Brief 91.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[...] Ich nahm mir die Freiheit, Herrn Weerth darauf aufmerksam zu machen, daß er 9/10 der Zeit, die ich ihn kenne, immer verdrießlich und malcontent war, was er von mir nicht behaupten werde. Nachdem ich ihm den Kopf etwas gewaschen, fand er sich wieder zurecht und wurde – wieder der alte Weerth. Ich finde, daß er verdammt verbürgert ist und seine Karriere zu sehr „au sérieux“ nimmt."
+                                   ],
+                                   "title": "Karl Marx aus London [28, Dean Street] an Friedrich Engels in Manchester, 3. Dezember 1852"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 28, Brief 63 (an Dritte).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] [Georg] Weerth ist jetzt, nach einer längren Reise über den Kontinent (er kehrte Ende Juli von Westindien zurück), wieder in Manchester. In 8 Tagen wird er von hier aufs neue nach den Tropen absegeln. Es ist sehr amüsant, ihm zuzuhören. Er hat viel gesehn, erlebt und beobachtet. Großen Teil von Süd-, West- und Mittelamerika durchstreift. Zu Pferd die Pampas durchritten. Den Chimborasso erstiegen. Nicht minder in Kalifornien sich aufgehalten. Wenn er jetzt keine Feuilletons schreibt, spricht er sie dafür, und da hat der Zuhörer noch den Vorzug der lebendigen Aktion, der Mimik und des schalkhaften Lachens. Übrigens schwärmt er sehr für das Leben in Westindien und ist keineswegs auf den Menschenkehricht und das Wetter des hiesigen nordischen Klimas gut zu sprechen. Und, indeed, es ist hier schlimm, sehr schlimm."
+                                   ],
+                                   "title": "Karl Marx aus Manchester an Ferdinand Lassalle in Düsseldorf, 8. November 1855"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 181.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Was sagst Du zu der Polengeschichte?  Soviel ist sicher, die era of revolution ist nun wieder fairly opened in Europe. Und der allgemeine Stand der Dinge gut. Aber die gemütlichen delusions und der fast kindliche Enthusiasmus, mit dem wir vor Februar 1848 die Revolutionsära begrüßten, sind zum Teufel. Alte Kameraden wie Weerth usw. sind hin, andre sind abgefallen oder verkommen und neuer Zuwachs wenigstens noch nicht sichtbar. Zudem wissen wir jetzt, welche Rolle die Dummheit in Revolutionen spielt und wie sie von Lumpen exploitiert werden."
+                                   ],
+                                   "title": "Karl Marx aus London an Friedrich Engels in Manchester, 13. Februar 1863"
+                            }
+                     }
+              ],
+              "slug": "geo_weer"
+       },
+       {
+              "has_en": false,
+              "name": {
+                     "en": null,
+                     "de": "Wilhelm Wolff"
+              },
+              "letters": [
+                     {
+                            "source": "MEW, Bd. 30, Brief 216.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Mohr,",
+                                          "Die Aussichten wegen Lupus werden täglich schlimmer. Die Geistesabwesenheit, in der er sich befindet, wird mehr und mehr chronisch. Er kennt die Leute noch ganz gut, die zu ihm kommen, spricht aber ganz rambling dazwischen und hat bloß klarere Momente, wenn er tüchtig Stimulantien genommen hat. Auch diese Momente werden immer dämmriger und kürzer. Gumpert hat nur noch sehr wenig Hoffnung, seine Diagnose lautet auf Gehirnerweichung infolge der durch Hyperämie des Gehirns erzeugten langanhaltenden Kopfschmerzen und der daher rührenden Schlaflosigkeit. […]",
+                                          "Jeder Tag, den Lupus in diesem Dusel zubringt, ohne daß die Reizmittel ihn herauszureißen vermögen, macht die Sache natürlich schlimmer, und wenn die nächsten 3–4 Tage keine Besserung bringen, so wird der arme Teufel entweder an Schwäche oder Apoplexie zugrunde gehn, oder, wenn er sich durchschlägt, wird er Idiot. Diese Alternative – Tod oder Blödsinn – ist gar zu scheußlich. […] Wenn der arme Kerl nur durchkäme!"
+                                   ],
+                                   "title": "Friedrich Engels aus Manchester an Karl Marx in London, 2. Mai 1864"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 217.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Marx,",
+                                          "Die Sache mit Lupus geht rasch. Er hat Halluzinationen, springt fortwährend aus dem Bett etc. Nun fehlt uns ein Mann, der bei ihm wacht und ihn verhindert, sich Schaden zu tun. Hier ist nur ein professioneller Krankenwärter, und der ist engagiert. Borchardt könnte zwar aus einer nahen Irrenanstalt einen bekommen, aber solange noch nicht die letzte Möglichkeit der Genesung verschwunden, will er diese Art Leute natürlich nicht, damit kein Gerede später entsteht und Lupus nicht dadurch geschadet wird."
+                                   ],
+                                   "title": "Friedrich Engels aus Manchester an Karl Marx in London, 2. Mai 1864 [8:30 abends]"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 99 (an Dritte).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Liebe Jenny,",
+                                          "Poor lupus starb heute, 10 Minuten nach 5 Uhr nachmittag. Ich komme soeben von der Leiche.",
+                                          "Als ich von London kam, ging ich denselben Abend noch ihn sehn; er war aber bewußtlos. Den nächsten Morgen erkannte er mich. Ich sah ihn mit Engels und den zwei Ärzten, und beim Weggehn rief er noch (mit schwacher Stimme): Ihr kommt doch wieder. Es war ein Lichtpunkt. Bald darauf fiel er wieder in seine Apathie. […]",
+                                          "Mit ihm ist einer unserer wenigen Freunde und Mitkämpfer hin. Er war ein Mann im besten Sinn des Worts."
+                                   ],
+                                   "title": "Karl Marx aus Manchester an Jenny Marx in London, 9. Mai 1864 "
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 100 (an Dritte).",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Liebe Jenny,",
+                                          "Poor lupus hatte, wie sich jetzt zeigt – Borchardt schon früher wußte – durch unaufhörliche Arbeit ein Vermögen zusammengeschanzt.",
+                                          "Er hatte Engels, Borchardt und mich in seinem Testament […]  zu seinen Exekutoren ernannt,[...] Er vermacht darin: […]",
+                                          "Den ganzen Rest, der an 6–700 £ beträgt, an mich (an Dich und die Kinder, falls ich vor ihm verstürbe, er hatte für alle Fälle gesorgt) ebenso seine Bücher und alle übrigen Effekten."
+                                   ],
+                                   "title": "Karl Marx aus Manchester an Jenny Marx in London, 10. Mai 1864"
+                            }
+                     },
+                     {
+                            "source": "Original in Englisch. MEW, Bd. 30, Brief 218.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "My dear Sir,",
+                                          "Hierdurch ersuche und ermächtige ich Sie, als mein Vertreter alle erforderlichen Schritte zur Erfüllung des Testaments unseres gemeinsamen Freundes Wilhelm Wolff zu tun.",
+                                          "Karl Marx, Dr.Ph.",
+                                          "Fr. Engels, Esq.",
+                                          "6, Thorncliffe Grove, Oxford Street,",
+                                          "Manchester."
+                                   ],
+                                   "title": "Karl Marx aus London an Friedrich Engels in Manchester, 23. Mai 1864"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 221.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "[…] Einliegend […]  Ausschnitt aus der „Rhein[ischen] Zeitung“ mit Nekrolog von lupus – geschrieben von Elsner, der jetzt einer der Redakteure der „Breslauer Zeitung“, woraus die „Rheinische“ abgedruckt hat; […] Apropos. Freund Freiligrath darf natürlich nie fehlen, wo es gilt, Ehren einzukassieren. Sieh Elsners Nekrolog."
+                                   ],
+                                   "title": "Karl Marx aus London an Friedrich Engels in Manchester, 3. Juni 1864"
+                            }
+                     },
+                     {
+                            "source": "MEW, Bd. 30, Brief 222.",
+                            "en": {
+                                   "content": [],
+                                   "title": null
+                            },
+                            "has_en": false,
+                            "de": {
+                                   "content": [
+                                          "Lieber Mohr,",
+                                          "In höfl[icher] Bestätigung meines ergebenst Letzten habe ich Dir heute anzuzeigen, daß Lupus' Testament den court of probate vorgestern passiert hat und ich mich in Besitz des fraglichen Dokuments gesetzt habe.",
+                                          "Auch habe ich es bei der Bank vorgezeigt und registrieren lassen und werde Montag oder Dienstag das Geld bei der Bank erheben [...] und Dir übermachen. Es sind ca. £ 230. [...] Den ungefähren Betrag der Erbschaftssteuer – £ 12 – werde ich hierbehalten, […].",
+                                          "Ich habe den Kerl entdeckt, bei dem Lupus sich photographieren ließ, und bei ihm das Original-Negativbild; ich habe 24 Abzüge nehmen lassen, wovon inliegend 4, Du kannst Pfänder und Eccarius je eins geben, und wenn Du noch mehr haben willst, so stehn sie zu Diensten. Bei dieser Gelegenheit habe ich mich auch wieder nehmen lassen, wovon Du das Resultat inl[iegend] siehst, die Leute hier sagen, es sei sehr gut."
+                                   ],
+                                   "title": "Friedrich Engels aus Manchester an Karl Marx in London, 3. Juni 1864"
+                            }
+                     }
+              ],
+              "slug": "wilh_wolff"
        }
 ]
