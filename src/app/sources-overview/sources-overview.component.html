@@ -4,9 +4,24 @@
       <div fxFlex="180px">
         <button class="custom-button-main" (click)="decreaseIdx()">{{ (isoCode === 'en') ? 'Previous' : 'Zurück' }}</button>
       </div>
-      <div class="img-container" fxFlex="">
-        <img [src]="'./assets/archive/transformed/' + sources[currIdx]['image']" alt="">
+      <div fxFlex="grow" fxLayout="column">
+        <div class="osd-controls" fxFlex="50px" fxLayout="row">
+          <!-- Hier könnten auch svgs stehen -->
+          <button mat-raised-button (click)="zoomIn()">+</button>
+          <button mat-raised-button (click)="zoomOut()">-</button>
+          <button mat-raised-button (click)="panLeft()">pan left</button>
+          <button mat-raised-button (click)="panUp()">pan up</button>
+          <button mat-raised-button (click)="panDown()">pan down</button>
+          <button mat-raised-button (click)="panRight()">pan right</button>
+        </div>
+        <!-- <div #fakeToolbar hidden="true"></div> -->
+        <div class="img-container" id="osd_viewport" fxFlex="grow">
+          <!-- <img [src]="'./assets/archive/transformed/' + sources[currIdx]['image']" alt=""> -->
+        </div>
+
+
       </div>
+
       <div fxFlex="360px">
         <button class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Vorwärts' }}</button>
         <div class="source-description">{{ sources[currIdx]['text'] }}</div>
