@@ -1,7 +1,7 @@
 <div class="main-component-wrapper">
   <div class="component-padding">
     <div fxLayout="row" fxLayoutGap="50px">
-      <div fxFlex="180px">
+      <div fxFlex="350px">
         <button class="custom-button-main" (click)="decreaseIdx()">{{ (isoCode === 'en') ? 'Previous' : 'Zurück' }}</button>
       </div>
         <!-- <div #fakeToolbar hidden="true"></div> -->
@@ -9,7 +9,7 @@
         <img [src]="'./assets/archive/' + sources[currIdx]['image']" alt="">
       </div>
 
-      <div fxFlex="360px">
+      <div fxFlex="350px">
         <button class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Vorwärts' }}</button>
         <div class="source-description">{{ sources[currIdx]['sourceInfo'] }}</div>
       </div>
