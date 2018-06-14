@@ -21,33 +21,29 @@ Biographien
 Stadtporträts
 Briefe
 Biographie Auswahl
-
-## TODO
-FEHLT: Archivalien
+Archivalien
 
 # Köln
 
 ## Done
 Biographien
-
-## TODO
 Stadtporträt
-Briefe (angefangen)
+Briefe
 Biographie Auswahl
 Archivalien
+
 
 # Paris
 
 ## Done
 Biographien
-
-## TODO
 Stadtporträt
 Briefe
 Biographie Auswahl
 Archivalien
 
 # Manchester
+
 
 # Brüssel
 

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<biography-selection>
+  <city>
+    <name>Brüssel</name>
+    <slug>bruessel</slug>
+    <slugs>
+      <slug>august_wil</slug>
+      <slug>caro_schoe</slug>
+      <slug>edg_marx</slug>
+      <slug>edg_westph</slug>
+      <slug>ferd_frei_has</slug>
+      <slug>fried_eng</slug>
+      <slug>geo_weer</slug>
+      <slug>heinr_buerg</slug>
+      <slug>hel_demu</slug>
+      <slug>jenny_marx</slug>
+      <slug>jenny_marx</slug>
+      <slug>jenny_long</slug>
+      <slug>jos_wey</slug>
+      <slug>karl_blind</slug>
+      <slug>karl_heinz</slug>
+      <slug>karl_schna</slug>
+      <slug>lau_marx</slug>
+      <slug>mary_burns</slug>
+      <slug>mos_hess</slug>
+      <slug>rol_dan</slug>
+      <slug>step_born</slug>
+      <slug>vic_ted</slug>
+      <slug>wilh_piep</slug>
+      <slug>wilh_weit</slug>
+      <slug>wilh_wolff</slug>
+    </slugs>
+  </city>
+</biography-selection>
