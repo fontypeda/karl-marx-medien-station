@@ -2,6 +2,7 @@
 <sources>
   <source>
     <image></image>
+    <source-title></source-title>
     <source-info></source-info>
     <transcription></transcription>
   </source>
