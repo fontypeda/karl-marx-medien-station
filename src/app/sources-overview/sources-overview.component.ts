@@ -71,6 +71,8 @@ export class SourcesOverviewComponent implements OnInit {
     } else {
       this.currIdx -= 1;
     }
+    let currTileSource: string = './assets/archive/' + this.sources[this.currIdx]["zoomFile"];
+    this.viewer.open(currTileSource);
   }
 
   public zoomIn() {
@@ -102,6 +104,7 @@ export class SourcesOverviewComponent implements OnInit {
 
   public panLeft() {
     let currCenter = this.viewer.viewport.getCenter();
+    console.log(currCenter);
     if (currCenter.x - 0.1 < 0.0) {
       currCenter.x = 0.0;
     } else {
@@ -113,6 +116,7 @@ export class SourcesOverviewComponent implements OnInit {
 
   public panRight() {
     let currCenter = this.viewer.viewport.getCenter();
+    console.log(currCenter);
     if (currCenter.x + 0.1 > this.homeBounds.width) {
       currCenter.x = this.homeBounds.width;
     } else {
@@ -135,8 +139,9 @@ export class SourcesOverviewComponent implements OnInit {
     let currZoom: number = this.viewer.viewport.getZoom();
     let currCenter = this.viewer.viewport.getCenter();
     console.log(currCenter);
-    if (currCenter.y + 0.1 > this.homeBounds.width) {
-      currCenter.y = this.homeBounds.width;
+    console.log(this.homeBounds);
+    if (currCenter.y + 0.1 > this.homeBounds.height) {
+      currCenter.y = this.homeBounds.height;
     } else {
       currCenter.y += 0.1;
     }

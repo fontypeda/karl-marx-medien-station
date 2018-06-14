@@ -1,168 +1,168 @@
 export const bioSelection = [
        {
+              "city_name": "Trier",
               "bios": [
                      {
-                            "has_en": false,
                             "slug": "aug_gus_las",
+                            "has_en": false,
                             "name": {
-                                   "en": "August Gustav Lasinsky",
-                                   "de": "August Gustav Lasinsky"
+                                   "de": "August Gustav Lasinsky",
+                                   "en": "August Gustav Lasinsky"
                             }
                      },
                      {
-                            "has_en": true,
                             "slug": "carl_westph",
+                            "has_en": true,
                             "name": {
-                                   "en": "Carl von Westphalen",
-                                   "de": "Carl von Westphalen"
+                                   "de": "Carl von Westphalen",
+                                   "en": "Carl von Westphalen"
                             }
                      },
                      {
-                            "has_en": true,
                             "slug": "edg_westph",
+                            "has_en": true,
                             "name": {
-                                   "en": "Edgar von Westphalen",
-                                   "de": "Edgar von Westphalen"
+                                   "de": "Edgar von Westphalen",
+                                   "en": "Edgar von Westphalen"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "fried_ant_wytt",
+                            "has_en": false,
                             "name": {
-                                   "en": "Friedrich Anton Wyttenbach",
-                                   "de": "Friedrich Anton Wyttenbach"
+                                   "de": "Friedrich Anton Wyttenbach",
+                                   "en": "Friedrich Anton Wyttenbach"
                             }
                      },
                      {
-                            "has_en": true,
                             "slug": "heinr_marx",
+                            "has_en": true,
                             "name": {
-                                   "en": "Heinrich Marx",
-                                   "de": "Heinrich Marx"
+                                   "de": "Heinrich Marx",
+                                   "en": "Heinrich Marx"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "heinr_rosb",
+                            "has_en": false,
                             "name": {
-                                   "en": "Heinrich Rosbach",
-                                   "de": "Heinrich Rosbach"
+                                   "de": "Heinrich Rosbach",
+                                   "en": "Heinrich Rosbach"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "joh_aug_mess",
+                            "has_en": false,
                             "name": {
-                                   "en": "Jean Augustin Messerich",
-                                   "de": "Jean Augustin Messerich"
+                                   "de": "Jean Augustin Messerich",
+                                   "en": "Jean Augustin Messerich"
                             }
                      },
                      {
-                            "has_en": true,
                             "slug": "jenny_marx",
-                            "name": {
-                                   "en": "Jenny Marx, geb. von Westphalen",
-                                   "de": "Jenny Marx, geb. von Westphalen"
-                            }
-                     },
-                     {
-                            "has_en": false,
-                            "slug": "joh_ant_ramb",
-                            "name": {
-                                   "en": "Johann Anton Ramboux",
-                                   "de": "Johann Anton Ramboux"
-                            }
-                     },
-                     {
-                            "has_en": false,
-                            "slug": "joh_pet_herm",
-                            "name": {
-                                   "en": "Johann Peter Job Hermes",
-                                   "de": "Johann Peter Job Hermes"
-                            }
-                     },
-                     {
-                            "has_en": false,
-                            "slug": "joh_pet_stein",
-                            "name": {
-                                   "en": "Johann Peter Wilhelm Stein",
-                                   "de": "Johann Peter Wilhelm Stein"
-                            }
-                     },
-                     {
-                            "has_en": false,
-                            "slug": "joh_steinin",
-                            "name": {
-                                   "en": "Johannes Steininger",
-                                   "de": "Johannes Steininger"
-                            }
-                     },
-                     {
-                            "has_en": false,
-                            "slug": "lud_gall",
-                            "name": {
-                                   "en": "Ludwig Gall",
-                                   "de": "Ludwig Gall"
-                            }
-                     },
-                     {
-                            "has_en": false,
-                            "slug": "ludw_simon",
-                            "name": {
-                                   "en": "Ludwig Simon",
-                                   "de": "Ludwig Simon"
-                            }
-                     },
-                     {
                             "has_en": true,
+                            "name": {
+                                   "de": "Jenny Marx, geb. von Westphalen",
+                                   "en": "Jenny Marx, geb. von Westphalen"
+                            }
+                     },
+                     {
+                            "slug": "joh_ant_ramb",
+                            "has_en": false,
+                            "name": {
+                                   "de": "Johann Anton Ramboux",
+                                   "en": "Johann Anton Ramboux"
+                            }
+                     },
+                     {
+                            "slug": "joh_pet_herm",
+                            "has_en": false,
+                            "name": {
+                                   "de": "Johann Peter Job Hermes",
+                                   "en": "Johann Peter Job Hermes"
+                            }
+                     },
+                     {
+                            "slug": "joh_pet_stein",
+                            "has_en": false,
+                            "name": {
+                                   "de": "Johann Peter Wilhelm Stein",
+                                   "en": "Johann Peter Wilhelm Stein"
+                            }
+                     },
+                     {
+                            "slug": "joh_steinin",
+                            "has_en": false,
+                            "name": {
+                                   "de": "Johannes Steininger",
+                                   "en": "Johannes Steininger"
+                            }
+                     },
+                     {
+                            "slug": "lud_gall",
+                            "has_en": false,
+                            "name": {
+                                   "de": "Ludwig Gall",
+                                   "en": "Ludwig Gall"
+                            }
+                     },
+                     {
+                            "slug": "ludw_simon",
+                            "has_en": false,
+                            "name": {
+                                   "de": "Ludwig Simon",
+                                   "en": "Ludwig Simon"
+                            }
+                     },
+                     {
                             "slug": "ludw_westph",
+                            "has_en": true,
                             "name": {
-                                   "en": "Ludwig von Westphalen",
-                                   "de": "Ludwig von Westphalen"
+                                   "de": "Ludwig von Westphalen",
+                                   "en": "Ludwig von Westphalen"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "matth_fisch",
+                            "has_en": false,
                             "name": {
-                                   "en": "Matthias Fischer",
-                                   "de": "Matthias Fischer"
+                                   "de": "Matthias Fischer",
+                                   "en": "Matthias Fischer"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "nik_vald",
+                            "has_en": false,
                             "name": {
-                                   "en": "Nikolaus Valdenaire",
-                                   "de": "Nikolaus Valdenaire"
+                                   "de": "Nikolaus Valdenaire",
+                                   "en": "Nikolaus Valdenaire"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "thom_simon",
+                            "has_en": false,
                             "name": {
-                                   "en": "Thomas Simon",
-                                   "de": "Thomas Simon"
+                                   "de": "Thomas Simon",
+                                   "en": "Thomas Simon"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "vik_jo_dew",
+                            "has_en": false,
                             "name": {
-                                   "en": "Viktor Josef Dewora",
-                                   "de": "Viktor Josef Dewora"
+                                   "de": "Viktor Josef Dewora",
+                                   "en": "Viktor Josef Dewora"
                             }
                      },
                      {
-                            "has_en": false,
                             "slug": "vik_vald",
+                            "has_en": false,
                             "name": {
-                                   "en": "Viktor Valdenaire",
-                                   "de": "Viktor Valdenaire"
+                                   "de": "Viktor Valdenaire",
+                                   "en": "Viktor Valdenaire"
                             }
                      }
               ],
-              "city_slug": "trier",
-              "city_name": "Trier"
+              "city_slug": "trier"
        }
 ]

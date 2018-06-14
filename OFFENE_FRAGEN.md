@@ -15,6 +15,10 @@ Jenny je ein Porträt Marx und von Westphalen
 Ludwig von Westphalen in POrträt mit Nameszusatz
 Johann
 
+#### Archivalien
+
+Sterbeurkunde Heinrich Marx fehlerhafte Datei
+ 
 ### Berlin
 
 Bruno Gans in Netzwerk Trier keine englische Übersetzung in
