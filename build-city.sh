@@ -23,15 +23,9 @@ while [ ! -z $1 ]; do
   python3 write-city-portrait.py $city
   python3 write-sources.py $city
 
-  figlet "Copying zoom-images and xml"
-  echo "Removing current content"
+  figlet "Copying images"
   rm -rf ../src/assets/archive/*
-  echo $(pwd)
-  echo "Copying xml..."
-  ls "archive/cities/"$city"/"*xml
-  cp "archive/cities/"$city"/"*xml ../src/assets/archive/
-  echo "Copying file directories..."
-  cp -R "archive/cities/"$city"/"*_files ../src/assets/archive/
+  cp "archive/cities/"$city"/transformed/"*jpg ../src/assets/archive/
   figlet "Compiling to localhost..."
   # Compile to localhost for testing
   cd ../
