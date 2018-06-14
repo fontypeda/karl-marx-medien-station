@@ -17,6 +17,7 @@ export class SourcesOverviewComponent implements OnInit {
   sources: any[] = sources;
   isoCode: string;
   viewer: any;
+  homeBounds: any;
   // panning value to be multiplied
   // by zoom for panning in all directions
   panBaseVal: number = 10;
@@ -33,10 +34,10 @@ export class SourcesOverviewComponent implements OnInit {
   ngOnInit() {
     this.viewer = OpenSeadragon({
       id: "osd_viewport",
-      prefixUrl: "node_modules/openseadragon/build/openseadragon/images/",
-      tileSources: "./assets/archive/osd/page2.xml",
+      tileSources: "./assets/archive/" + this.sources[0]["zoomFile"],
       showNavigationControl: false
     });
+
     // {
     //   "scrollToZoom": false,
     //   "clickToZoom": false,
@@ -50,6 +51,8 @@ export class SourcesOverviewComponent implements OnInit {
     // BrightSign players will break anyway after some secs, so disable zoom
     this.viewer.gestureSettingsTouch.dblClickToZoom = false;
     this.viewer.gestureSettingsTouch.pinchToZoom = false;
+
+    this.homeBounds = this.viewer.viewport.getHomeBounds();
   }
 
   increaseIdx() {
@@ -58,6 +61,8 @@ export class SourcesOverviewComponent implements OnInit {
     } else {
       this.currIdx += 1;
     }
+    let currTileSource: string = './assets/archive/' + this.sources[this.currIdx]["zoomFile"];
+    this.viewer.open(currTileSource);
   }
 
   decreaseIdx() {
@@ -108,8 +113,8 @@ export class SourcesOverviewComponent implements OnInit {
 
   public panRight() {
     let currCenter = this.viewer.viewport.getCenter();
-    if (currCenter.x + 0.1 > 1.0) {
-      currCenter.x = 1.0;
+    if (currCenter.x + 0.1 > this.homeBounds.width) {
+      currCenter.x = this.homeBounds.width;
     } else {
       currCenter.x += 0.1;
     }
@@ -130,8 +135,8 @@ export class SourcesOverviewComponent implements OnInit {
     let currZoom: number = this.viewer.viewport.getZoom();
     let currCenter = this.viewer.viewport.getCenter();
     console.log(currCenter);
-    if (currCenter.y + 0.1 > 0.75) {
-      currCenter.y = 0.75;
+    if (currCenter.y + 0.1 > this.homeBounds.width) {
+      currCenter.y = this.homeBounds.width;
     } else {
       currCenter.y += 0.1;
     }
