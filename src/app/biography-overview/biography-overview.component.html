@@ -5,9 +5,9 @@
     WILL HAVE SELECTION
   </div> -->
   <!-- <div *ngIf="bioSelection.length === 1"> -->
-  <div class="persons-box">
+  <div class="persons-box" fxLayoutAlign="center center">
 
-    <mat-grid-list fxFlex="grow" cols="8" rowHeight="235px">
+    <mat-grid-list fxFlex="grow" [cols]="colNum" rowHeight="235px">
 
      <!-- <div > -->
     <mat-grid-tile *ngFor="let person of persons">

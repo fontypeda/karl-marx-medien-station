@@ -1,9 +1,9 @@
 <div class="main-component-wrapper">
   <div class="component-padding">
-    <div class="letters-overview-main">
+    <div class="letters-overview-main" fxLayoutAlign="center center">
       <app-missing-translation *ngIf="isoCode === 'en' && !englishLettersAvailable"></app-missing-translation>
 
-      <mat-grid-list class="main" fxFlex="grow" cols="5" rowHeight="230px">
+      <mat-grid-list class="main" fxFlex="grow" [cols]="colNum" rowHeight="230px">
         <mat-grid-tile *ngFor="let letterGroup of letterGroupOverview">
           <app-baloon-selector
             [hidden]="isoCode === 'en' && !letterGroup.has_en"

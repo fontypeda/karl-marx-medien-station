@@ -17,6 +17,7 @@ export class BiographyOverviewComponent implements OnInit {
   persons: string[];
   isoCode: string;
   bioGroupId: string;
+  colNum: number = 8;
   // personBios: any[];
   // bioSelection: any[] = bioSelection;
 
@@ -38,7 +39,11 @@ export class BiographyOverviewComponent implements OnInit {
 
   ngOnInit() {
     this.bioGroupId = this.route.snapshot.paramMap.get("biogroupid");
-    this.persons =     this.dataService.getPersonsForGroup(this.bioGroupId); 
+    this.persons = this.dataService.getPersonsForGroup(this.bioGroupId);
+    if (this.persons.length < this.colNum) {
+      this.colNum = this.persons.length;
+    }
+
     console.log(this.bioGroupId);
   }
 

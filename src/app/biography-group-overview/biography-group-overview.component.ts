@@ -11,6 +11,8 @@ import { DataService } from '../services/data.service';
 export class BiographyGroupOverviewComponent implements OnInit {
 
   bioGroupOverview: any[];
+  colNum: number = 5;
+
   constructor(
     private dataService: DataService
   ) {
@@ -18,6 +20,9 @@ export class BiographyGroupOverviewComponent implements OnInit {
   }
 
   ngOnInit() {
+    if (this.bioGroupOverview.length < this.colNum) {
+      this.colNum = this.bioGroupOverview.length;
+    }
   }
 
 }

@@ -15,6 +15,9 @@ export class LettersOverviewComponent implements OnInit {
   isoCode: string;
   // Are there any english letters
   englishLettersAvailable: boolean;
+
+  colNum: number = 5;
+
   constructor(
     private data: DataService,
     private languageService: LanguageService
@@ -31,6 +34,9 @@ export class LettersOverviewComponent implements OnInit {
 
   ngOnInit() {
     this.letterGroupOverview = this.data.getLetterOverview(this.isoCode);
+    if (this.letterGroupOverview.length < this.colNum) {
+      this.colNum = this.letterGroupOverview.length; 
+    }
     this.englishLettersAvailable = this._checkEnglishAvailability();
   }
 
