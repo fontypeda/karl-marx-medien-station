@@ -9,13 +9,14 @@
         <img [src]="'./assets/archive/' + sources[currIdx]['image']" alt="">
       </div>
 
-      <div fxFlex="350px">
+      <div fxFlex="350px" fxLayout="column">
         <button *ngIf="sources.length > 1" class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Nächste' }}</button>
-        <div class="source-description" fxLayout="column">
-          <div>
+        <div fxFlex="grow"></div>
+        <div class="source-description" fxLayout="column" fxLayoutAlign="end end">
+          <div class="source-description-title">
             {{ sources[currIdx]['sourceTitle'] }}
           </div>
-          <div>
+          <div class="source-description-info">
             {{ sources[currIdx]['sourceInfo'] }}
           </div>
 
