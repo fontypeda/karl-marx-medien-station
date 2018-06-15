@@ -6,7 +6,7 @@
       <button  class="custom-button-main" (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
     </div>
     <div fxFlex="60">
-      <div fxLayout="row" fxLayoutAlign="center center">
+      <div *ngIf="isoCode === 'de' || bioInfo.has_english" fxLayout="row" fxLayoutAlign="center center">
         <div fxFlex="150px">
           <div class="circle">
           <img
@@ -27,7 +27,7 @@
     </div>
   </div>
 
-<br/>
+
 
   <div class="main-person-detail" fxLayout="row" fxLayoutGab="50px">
     <div fxFlex="">

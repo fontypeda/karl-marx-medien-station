@@ -3,7 +3,7 @@ directory"""
 
 import json
 import os
-import sys 
+import sys
 
 import lxml.etree as etree
 

@@ -7,8 +7,8 @@ import lxml.etree as etree
 
 
 def node_has_english(biographie):
-    if biographie.find("title_en").text is None:
-        return False
+    # if biographie.find("title_en").text is None:
+    #     return False
     if biographie.find("content_en").text is None:
         return False
     return True
