@@ -51,8 +51,8 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .component-padding {
-  padding: 50px;
-  padding-bottom: 0px;
+  margin: 50px;
+  margin-bottom: 0px;
   height: 100%;
 }
 
@@ -70,7 +70,6 @@ h2 {
   letter-spacing: 1px;
   padding: 1rem;
   width: 100%;
-  max-width: 250px;
   background-color: transparent;
 }
 
