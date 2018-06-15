@@ -16,10 +16,15 @@ export class HomeViewComponent implements OnInit {
   hasBiographies: boolean;
   hasEnglishLetters: boolean;
 
+  cityOverviews: any[];
   cityPortrait: any = {
         name: {
           'de': "Stadtportrait",
           'en': "City Portrait"
+        },
+        namePlural: {
+          'de': "Stadtportraits",
+          'en': "City Portraits"
         },
         link: "./cityportrait"
       };
@@ -66,6 +71,16 @@ export class HomeViewComponent implements OnInit {
     let letterOverviews = this.dataService.getLetterOverview('de');
     if (letterOverviews.length === 1) {
       this.letters.link += '/' + letterOverviews[0].slug;
+    }
+
+    let bioOverviews = this.dataService.getBioGroupOverview('de');
+    if (bioOverviews.length === 1) {
+      this.biographies.link += '/' + bioOverviews[0].slug;
+    }
+
+    this.cityOverviews = this.dataService.getCityGroupOverview('de');
+    if (this.cityOverviews.length === 1) {
+      this.cityPortrait.link += '/' + this.cityOverviews[0].slug;
     }
   }
 

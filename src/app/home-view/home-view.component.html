@@ -4,7 +4,12 @@
       <mat-grid-tile>
 
           <button class="custom-button-main-home" [routerLink]="cityPortrait.link" mat-raised-button color="primary">
-            {{ cityPortrait.name[isoCode] }}
+            <ng-container *ngIf="cityOverviews.length === 1">
+              {{ cityPortrait.name[isoCode] }}
+            </ng-container>
+            <ng-container *ngIf="cityOverviews.length > 1">
+              {{ cityPortrait.namePlural[isoCode] }}
+            </ng-container>
           </button>
 
       </mat-grid-tile>

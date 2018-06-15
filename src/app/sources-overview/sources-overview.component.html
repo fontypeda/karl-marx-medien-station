@@ -2,7 +2,7 @@
   <div class="component-padding">
     <div fxLayout="row" fxLayoutGap="50px">
       <div fxFlex="350px">
-        <button *ngIf="sources.length > 1" class="custom-button-main" (click)="decreaseIdx()">{{ (isoCode === 'en') ? 'Previous' : 'Zurück' }}</button>
+        <button *ngIf="sources.length > 1" class="custom-button-main" (click)="decreaseIdx()">{{ (isoCode === 'en') ? 'Previous' : 'Vorherige' }}</button>
       </div>
         <!-- <div #fakeToolbar hidden="true"></div> -->
       <div class="img-container" fxFlex="grow">
@@ -10,7 +10,7 @@
       </div>
 
       <div fxFlex="350px">
-        <button *ngIf="sources.length > 1" class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Vorwärts' }}</button>
+        <button *ngIf="sources.length > 1" class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Nächste' }}</button>
         <div class="source-description" fxLayout="column">
           <div>
             {{ sources[currIdx]['sourceTitle'] }}
