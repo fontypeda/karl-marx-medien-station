@@ -11,7 +11,15 @@
 
       <div fxFlex="350px">
         <button class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Vorwärts' }}</button>
-        <div class="source-description">{{ sources[currIdx]['sourceInfo'] }}</div>
+        <div class="source-description" fxLayout="column">
+          <div>
+            {{ sources[currIdx]['sourceTitle'] }}
+          </div>
+          <div>
+            {{ sources[currIdx]['sourceInfo'] }}
+          </div>
+
+        </div>
       </div>
     </div>
 

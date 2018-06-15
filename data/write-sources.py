@@ -35,6 +35,7 @@ for source_idx, source in enumerate(root):
     curr_source = {}
     curr_source["image"] = source.find("image").text
     curr_source["sourceInfo"] = source.find("source-info").text
+    curr_source["sourceTitle"] = source.find("source-title").text
     curr_source["transcription"] = split_paras(source.find("transcription").text)
     sources.append(curr_source)
 
