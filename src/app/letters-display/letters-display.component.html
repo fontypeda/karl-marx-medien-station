@@ -13,7 +13,9 @@
             [id]="'letter' + idx"
             class="letter">
             <h2>{{ letter[isoCode].title }}</h2>
-            <p>{{ letter[isoCode].content }}</p>
+            <p *ngFor="let para of letter[isoCode].content">
+              {{ para }}
+            </p>
 
             <p class="zit">{{ letter.source }}</p>
           </div>
