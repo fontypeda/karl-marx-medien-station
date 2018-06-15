@@ -27,11 +27,11 @@ for missing_portrait in missing_portraits:
     target = os.path.join(ASSETS_DIR, missing_portrait[0] + ".jpg")
     if missing_portrait[1] == "f":
         shutil.copy(
-            "portraits-peter/portraits-peter/blank_woman.jpg",
+            "portraits-peter/blank_woman.jpg",
             target
         )
     else:
         shutil.copy(
-            "portraits-peter/portraits-peter/blank_man.jpg",
+            "portraits-peter/blank_man.jpg",
             target
         )
