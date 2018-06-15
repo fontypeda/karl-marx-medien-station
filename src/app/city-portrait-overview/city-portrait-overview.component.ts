@@ -10,13 +10,17 @@ import { DataService } from '../services/data.service';
 export class CityPortraitOverviewComponent implements OnInit {
 
   cityGroupOverview: any[];
+  colNum: number = 5; 
   constructor(
     private dataService: DataService
   ) {
-    this.cityGroupOverview = this.dataService.getCityGroupOverview('de'); 
+    this.cityGroupOverview = this.dataService.getCityGroupOverview('de');
   }
 
   ngOnInit() {
+    if (this.cityGroupOverview.length < this.colNum) {
+      this.colNum = this.cityGroupOverview.length;
+    }
   }
 
 }
