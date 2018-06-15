@@ -2,7 +2,7 @@
 <lettergroups>
   <lettergroup>
     <slug>pav_anne</slug>
-    <name>Annenkov</name>
+    <name>Pawel W. Annenkov</name>
     <name_en></name_en>
     <letters>
       <letter>
@@ -22,7 +22,7 @@ Der einzige Punkt, in dem ich mit Herrn Proudhon vollständig einverstanden bin,
   </lettergroup>
   <lettergroup>
     <slug>mak_bak</slug>
-    <name>Bakunin</name>
+    <name>Michail A. Bakunin</name>
     <name_en></name_en>
     <letters>
       <letter>
@@ -86,7 +86,7 @@ Diese Kinderfabel fand Anklang (und hat noch gewissen Halt) in Italien und Spani
   </lettergroup>
   <lettergroup>
     <slug>carl_ferd_jul_froeb</slug>
-    <name>Fröbel</name>
+    <name>Julius Fröbel</name>
     <name_en></name_en>
     <letters>
       <letter>
@@ -114,7 +114,7 @@ Entschuldigen Sie das Knöcherne dieses Briefes. Ich kann vor Indignation nicht 
   </lettergroup>
   <lettergroup>
     <slug>heinr_heine</slug>
-    <name>Heine</name>
+    <name>Heinrich Heine</name>
     <name_en></name_en>
     <letters>
       <letter>
@@ -174,7 +174,7 @@ Ich habe Heines 3 Bände nun zu Hause. Unter anderm erzählt er ausführlich die
   </lettergroup>
   <lettergroup>
     <slug>geo_her</slug>
-    <name>Herwegh</name>
+    <name>Georg Herwegh</name>
     <name_en></name_en>
     <letters>
       <letter>
@@ -472,7 +472,7 @@ Ich schlage Ihnen vor, den Verlag dieses für unsere Partei wichtigen und für d
   </lettergroup>
   <lettergroup>
     <slug>proudhon</slug>
-    <name>Proudhon</name>
+    <name>Pierre-Joseph Proudhon</name>
     <name_en></name_en>
     <letters>
       <letter>
@@ -506,7 +506,7 @@ Friedrich Engels</content>
   </lettergroup>
   <lettergroup>
     <slug>arnold_ruge</slug>
-    <name>Ruge</name>
+    <name>Arnold Ruge</name>
     <name_en></name_en>
     <letters>
       <letter>
