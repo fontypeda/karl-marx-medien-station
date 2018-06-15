@@ -53,17 +53,17 @@ export class LettersDisplayComponent implements OnInit {
     let nativeElement: HTMLElement = this.el.nativeElement;
     let letterElement = document.getElementById('letter' + idx);
     // letterElement.scrollTo();
-    if (idx === this.letters.length - 1) {
-    //   console.log("Using scroll To");
-    //   // letterElement.
-    //   // letterElement.scrollTo(0, nativeElement.scrollHeight);
-      let parentContainer = this.letterContainer.nativeElement;
-      console.log(parentContainer.scrollHeight);
-      parentContainer.scrollTo(0, parentContainer.scrollHeight);
-      // window.scrollTo(0, nativeElement.scrollHeight);
-    } else {
+    // if (idx === this.letters.length - 1) {
+    // //   console.log("Using scroll To");
+    // //   // letterElement.
+    // //   // letterElement.scrollTo(0, nativeElement.scrollHeight);
+    //   let parentContainer = this.letterContainer.nativeElement;
+    //   console.log(parentContainer.scrollHeight);
+    //   parentContainer.scrollTo(0, parentContainer.scrollHeight);
+    //   // window.scrollTo(0, nativeElement.scrollHeight);
+    // } else {
       letterElement.scrollIntoView();
-    }
+    // }
     // nativeElement.scrollTo(letterElement);
     console.log(letterElement);
   }
