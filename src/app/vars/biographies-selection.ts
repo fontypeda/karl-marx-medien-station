@@ -1,5 +1,7 @@
 export const bioSelection = [
        {
+              "city_slug": "london",
+              "city_name": "London",
               "bios": [
                      {
                             "name": {
@@ -257,8 +259,6 @@ export const bioSelection = [
                             "has_en": false,
                             "slug": "wilh_lieb"
                      }
-              ],
-              "city_slug": "london",
-              "city_name": "London"
+              ]
        }
 ]
