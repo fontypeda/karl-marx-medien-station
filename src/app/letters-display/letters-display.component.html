@@ -1,18 +1,17 @@
 <div class="main-component-wrapper">
   <div class="component-padding">
-  <div class="main-letter-wrapper">
-    <div class="nav-column">
+  <div class="main-letter-wrapper" fxLayout="row" fxLayoutGap="50px">
+    <div class="nav-column" fxFlex>
       <button  class="custom-button-main"  (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
     </div>
-    <div class="letters" #letterContainer>
+    <div fxFlex="60" class="letters" #letterContainer>
       <app-missing-translation *ngIf="isoCode === 'en' && !hasEn"></app-missing-translation>
       <ng-container *ngIf="isoCode === 'de' || (isoCode === 'en' && hasEn)">
         <ng-container
           *ngFor="let letter of letters; let idx = index;">
           <div *ngIf="isoCode === 'de' || (isoCode === 'en' && letter.has_en)"
             [id]="'letter' + idx"
-            [class.last-letter]="idx === letters.length - 1"
-            [class.letter]="idx !== letters.length - 1">
+            class="letter">
             <h2>{{ letter[isoCode].title }}</h2>
             <p>{{ letter[isoCode].content }}</p>
 
@@ -23,7 +22,7 @@
 
       </ng-container>
     </div>
-    <div class="letter-overview">
+    <div fxFlex class="letter-overview">
       <ng-container *ngIf="isoCode === 'de' || (isoCode === 'en' && hasEn)">
         <div *ngFor="let letter of letters; let idx = index;">
 
