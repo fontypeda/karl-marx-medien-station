@@ -37,3 +37,6 @@ while [ ! -z $1 ]; do
   shift 1
 
 done
+
+# Remove changes to data in vars
+git checkout src/app/vars/*
