@@ -3,7 +3,7 @@
 .main-city-portrait-wrapper {
   display: flex;
   flex-direction: row;
-  height: 930px; 
+  height: 930px;
 }
 
 .city-portrait-main {
@@ -38,6 +38,7 @@
 }
 
 .letter-overview {
+  padding-right: 10px; 
   overflow-x: scroll;
   height: 930px;
 }
