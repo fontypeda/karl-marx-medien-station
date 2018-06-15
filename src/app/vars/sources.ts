@@ -1,17 +1,17 @@
 export const sources = [
        {
               "transcription": [],
-              "sourceInfo": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. E 74",
-              "image": "Schneiderrechnung.jpg"
+              "image": "Schneiderrechnung.jpg",
+              "sourceInfo": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. E 74"
        },
        {
               "transcription": [],
-              "sourceInfo": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. E 85",
-              "image": "Scotland_Yard.jpg"
+              "image": "Scotland_Yard.jpg",
+              "sourceInfo": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. E 85"
        },
        {
               "transcription": [],
-              "sourceInfo": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. E 78",
-              "image": "Wechsel_Burton_1.jpg"
+              "image": "Wechsel_Burton_1.jpg",
+              "sourceInfo": "Internationales Institut für Sozialgeschichte, Amsterdam, Marx-Engels-Nachlass, Sign. E 78"
        }
 ]
