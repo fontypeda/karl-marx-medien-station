@@ -16,6 +16,13 @@
             <p *ngFor="let para of letter[isoCode].content">
               {{ para }}
             </p>
+            <ng-container class="footnotes" *ngIf="letter.footnotes.length > 0">
+
+            <div *ngFor="let footnote of letter.footnotes; let footIdx = index;" fxLayout="row">
+                <span fxFlex="30px">{{ footIdx + 1 }}</span>
+                <span>{{ footnote }}</span>
+              </div>
+            </ng-container>
 
             <p class="zit">{{ letter.source }}</p>
           </div>

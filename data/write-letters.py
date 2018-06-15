@@ -58,9 +58,17 @@ for letter_group_idx, letter_group in enumerate(root):
         curr_letter["en"]["title"] = letter.find("title_en").text
         curr_letter["en"]["content"] = split_paras(letter.find("content_en").text)
         curr_letter["source"] = letter.find("source").text
+        curr_footnotes = []
+        footnotes = letter.find("footnotes")
+        if footnotes is not None:
+            for footnote in footnotes:
+                curr_footnotes.append(footnote.text)
+
+        curr_letter["footnotes"] = curr_footnotes
+        curr_letter["has_en"] = node_has_english(letter)
+
         curr_letter_group["letters"].append(curr_letter)
 
-        curr_letter["has_en"] = node_has_english(letter)
         if curr_letter["has_en"]:
             group_has_english = True
     curr_letter_group["has_en"] = group_has_english
