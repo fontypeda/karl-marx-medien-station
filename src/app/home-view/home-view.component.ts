@@ -57,12 +57,16 @@ export class HomeViewComponent implements OnInit {
     });
     this.hasSources = this.dataService.hasSources();
     this.hasBiographies = this.dataService.hasBiographies();
-    this.hasEnglishLetters = this.dataService.hasEnglishLetters(); 
+    this.hasEnglishLetters = this.dataService.hasEnglishLetters();
   }
 
 
   ngOnInit() {
     this.isoCode = this.languageService.getIsoCode();
+    let letterOverviews = this.dataService.getLetterOverview('de');
+    if (letterOverviews.length === 1) {
+      this.letters.link += '/' + letterOverviews[0].slug;
+    }
   }
 
 }

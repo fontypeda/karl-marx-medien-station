@@ -6,6 +6,7 @@ import { letters } from '../vars/letters';
 import { biographies } from '../vars/biographies';
 import { bioSelection } from '../vars/biographies-selection';
 import { sources } from '../vars/sources';
+import { cities } from '../vars/city-portrait';
 
 
 @Injectable({
@@ -16,6 +17,9 @@ export class DataService {
 
   letters: any[] = letters;
   sources: any[] = sources;
+  cities: any[] = cities;
+  biographies: any[] = biographies;
+
   bioSelection: any[] = bioSelection;
   bioDict: any = {};
 
@@ -28,7 +32,7 @@ export class DataService {
     //     console.log("JSON returned");
     //     this.letterGroups = result;
     //   })
-    biographies.forEach((biography) => {
+    this.biographies.forEach((biography) => {
       this.bioDict[biography["slug"]] = biography;
     });
   }
@@ -56,6 +60,39 @@ export class DataService {
 
   getBioInfo(bioId: string) : any {
     return this.bioDict[bioId];
+  }
+
+  getBioGroupOverview(isoCode: string) : any[] {
+    let bioGroupOverview: any[] = [];
+    this.bioSelection.forEach((bioGroup: any) => {
+      console.log(bioGroup);
+      bioGroupOverview.push({
+        "name": bioGroup.city_name,
+        "slug": bioGroup.city_slug
+      });
+
+    });
+    console.log(bioGroupOverview);
+    return bioGroupOverview;
+  }
+
+  getCityGroupOverview(isoCode: string): any[] {
+    let cityGroupOverview: any[] = [];
+    this.cities.forEach((city: any) => {
+      console.log(city);
+      cityGroupOverview.push({
+        "name": city.name,
+        "slug": city.slug
+      });
+    })
+    return cityGroupOverview;
+  }
+
+  getCityInfo(citySlug): any {
+    let city = this.cities.find((city: any) => {
+      return city.slug === citySlug;
+    });
+    return city;
   }
 
   getLetterOverview(isoCode: string): any[] {
@@ -102,6 +139,15 @@ export class DataService {
     //     return letterGroup.letters;
     //   }
     // });
+  }
+
+  public getPersonsForGroup(bioGroupSlug: string) : any[] {
+    let bioGroup = this.bioSelection.find((bioGroup: any) => {
+      return bioGroup.city_slug === bioGroupSlug;
+    });
+    console.log(bioGroup);
+    return bioGroup.bios; 
+
   }
 
   sayHi() {

@@ -8,7 +8,8 @@ import { LettersOverviewComponent } from './letters-overview/letters-overview.co
 import { PersonDetailComponent } from './person-detail/person-detail.component';
 import { SourcesOverviewComponent } from './sources-overview/sources-overview.component';
 import { LettersDisplayComponent } from './letters-display/letters-display.component';
-
+import { CityPortraitOverviewComponent } from './city-portrait-overview/city-portrait-overview.component';
+import { BiographyGroupOverviewComponent } from './biography-group-overview/biography-group-overview.component';
 
 
 const routes: Routes = [
@@ -18,10 +19,14 @@ const routes: Routes = [
   },
   {
     path: 'biographies',
+    component: BiographyGroupOverviewComponent
+  },
+  {
+    path: 'biographies/:biogroupid',
     component: BiographyOverviewComponent
   },
   {
-    path: 'biographies/:bioid',
+    path: 'biographies/:biogroupid/:bioid',
     component: PersonDetailComponent
   },
   {
@@ -34,6 +39,10 @@ const routes: Routes = [
   },
   {
     path: 'cityportrait',
+    component: CityPortraitOverviewComponent
+  },
+  {
+    path: 'cityportrait/:cityid',
     component: CityPortraitComponent
   },
   {

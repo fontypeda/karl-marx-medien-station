@@ -29,6 +29,8 @@ import { SourcesOverviewComponent } from './sources-overview/sources-overview.co
 import { LettersDisplayComponent } from './letters-display/letters-display.component';
 import { BaloonSelectorComponent } from './baloon-selector/baloon-selector.component';
 import { MissingTranslationComponent } from './missing-translation/missing-translation.component';
+import { CityPortraitOverviewComponent } from './city-portrait-overview/city-portrait-overview.component';
+import { BiographyGroupOverviewComponent } from './biography-group-overview/biography-group-overview.component';
 
 
 
@@ -43,7 +45,9 @@ import { MissingTranslationComponent } from './missing-translation/missing-trans
     SourcesOverviewComponent,
     LettersDisplayComponent,
     BaloonSelectorComponent,
-    MissingTranslationComponent
+    MissingTranslationComponent,
+    CityPortraitOverviewComponent,
+    BiographyGroupOverviewComponent
   ],
   imports: [
     BrowserModule,

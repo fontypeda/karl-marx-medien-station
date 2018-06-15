@@ -2,9 +2,10 @@ import { Component, OnInit } from '@angular/core';
 
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
+import { DataService } from '../services/data.service';
 import { LanguageService } from '../services/language.service';
 
-import { bioSelection } from '../vars/biographies-selection';
+// import { bioSelection } from '../vars/biographies-selection';
 
 @Component({
   selector: 'app-biography-overview',
@@ -15,9 +16,12 @@ export class BiographyOverviewComponent implements OnInit {
 
   persons: string[];
   isoCode: string;
-  bioSelection: any[] = bioSelection;
+  bioGroupId: string;
+  // personBios: any[];
+  // bioSelection: any[] = bioSelection;
 
   constructor(
+    private dataService: DataService,
     private languageService: LanguageService,
     private route: ActivatedRoute
   ) {
@@ -26,13 +30,16 @@ export class BiographyOverviewComponent implements OnInit {
     this.languageService.languageChange$.subscribe((isoCode) => {
       this.isoCode = isoCode;
     });
-    if (this.bioSelection.length === 1) {
-      this.persons = this.bioSelection[0]["bios"];
-    }
+
+    // if (this.bioSelection.length === 1) {
+    //   this.persons = this.bioSelection[0]["bios"];
+    // }
   }
 
   ngOnInit() {
-    console.log(this.route.snapshot.paramMap.get('lang'));
+    this.bioGroupId = this.route.snapshot.paramMap.get("biogroupid");
+    this.persons =     this.dataService.getPersonsForGroup(this.bioGroupId); 
+    console.log(this.bioGroupId);
   }
 
 }

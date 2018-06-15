@@ -31,7 +31,7 @@ export class LettersOverviewComponent implements OnInit {
 
   ngOnInit() {
     this.letterGroupOverview = this.data.getLetterOverview(this.isoCode);
-    this.englishLettersAvailable = this._checkEnglishAvailability(); 
+    this.englishLettersAvailable = this._checkEnglishAvailability();
   }
 
   private _checkEnglishAvailability(): boolean {

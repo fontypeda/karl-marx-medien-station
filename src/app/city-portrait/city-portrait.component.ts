@@ -4,6 +4,7 @@ import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
 import { Location } from '@angular/common';
 
+import { DataService } from '../services/data.service';
 import { LanguageService } from '../services/language.service';
 import { cities } from '../vars/city-portrait';
 
@@ -17,8 +18,10 @@ export class CityPortraitComponent implements OnInit {
   cities: any[] = cities;
   city: any;
   isoCode: string;
-  baseUrl: string;
+  citySlug: string;
+
   constructor(
+    private dataService: DataService,
     private languageService: LanguageService,
     private _location: Location,
     private route: ActivatedRoute,
@@ -28,9 +31,12 @@ export class CityPortraitComponent implements OnInit {
     this.isoCode = this.languageService.getIsoCode();
     this.languageService.languageChange$.subscribe((isoCode) => {
       this.isoCode = isoCode;
-    })
-    this.baseUrl = this.router.url.split("#")[0];
-    this.city = this.cities[0];
+    });
+    this.citySlug = this.route.snapshot.paramMap.get('cityid');
+    console.log(this.citySlug);
+    // this.baseUrl = this.router.url.split("#")[0];
+    this.city = this.dataService.getCityInfo(this.citySlug); 
+    // this.cities[0];
   }
 
   ngOnInit() {

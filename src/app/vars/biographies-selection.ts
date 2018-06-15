@@ -1,264 +1,264 @@
 export const bioSelection = [
        {
-              "city_slug": "london",
               "city_name": "London",
               "bios": [
                      {
-                            "name": {
-                                   "de": "Adolf Cluss",
-                                   "en": "Adolf Cluss"
-                            },
+                            "slug": "adolf_cluss",
                             "has_en": false,
-                            "slug": "adolf_cluss"
+                            "name": {
+                                   "en": "Adolf Cluss",
+                                   "de": "Adolf Cluss"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Caroline (Lina) Schoeler",
-                                   "en": "Caroline (Lina) Schoeler"
-                            },
+                            "slug": "caro_schoe",
                             "has_en": false,
-                            "slug": "caro_schoe"
+                            "name": {
+                                   "en": "Caroline (Lina) Schoeler",
+                                   "de": "Caroline (Lina) Schoeler"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Carl Schurz",
-                                   "en": "Carl Schurz"
-                            },
+                            "slug": "carl_schurz",
                             "has_en": false,
-                            "slug": "carl_schurz"
+                            "name": {
+                                   "en": "Carl Schurz",
+                                   "de": "Carl Schurz"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Charles Longuet",
-                                   "en": "Charles Longuet"
-                            },
+                            "slug": "char_long",
                             "has_en": true,
-                            "slug": "char_long"
+                            "name": {
+                                   "en": "Charles Longuet",
+                                   "de": "Charles Longuet"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "David Urquhart",
-                                   "en": "David Urquhart"
-                            },
+                            "slug": "dav_urq",
                             "has_en": false,
-                            "slug": "dav_urq"
+                            "name": {
+                                   "en": "David Urquhart",
+                                   "de": "David Urquhart"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Edward Aveling",
-                                   "en": "Edward Aveling"
-                            },
+                            "slug": "edwa_ave",
                             "has_en": true,
-                            "slug": "edwa_ave"
+                            "name": {
+                                   "en": "Edward Aveling",
+                                   "de": "Edward Aveling"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Edgar (Musch) Marx ",
-                                   "en": "Edgar (Musch) Marx "
-                            },
+                            "slug": "edg_marx",
                             "has_en": true,
-                            "slug": "edg_marx"
+                            "name": {
+                                   "en": "Edgar (Musch) Marx ",
+                                   "de": "Edgar (Musch) Marx "
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Edgar von Westphalen",
-                                   "en": "Edgar von Westphalen"
-                            },
+                            "slug": "edg_westph",
                             "has_en": true,
-                            "slug": "edg_westph"
+                            "name": {
+                                   "en": "Edgar von Westphalen",
+                                   "de": "Edgar von Westphalen"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Eleanor (Tussy) Marx",
-                                   "en": "Eleanor (Tussy) Marx"
-                            },
+                            "slug": "ele_marx",
                             "has_en": true,
-                            "slug": "ele_marx"
+                            "name": {
+                                   "en": "Eleanor (Tussy) Marx",
+                                   "de": "Eleanor (Tussy) Marx"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Ernest Charles Jones",
-                                   "en": "Ernest Charles Jones"
-                            },
+                            "slug": "ern_charl_jon",
                             "has_en": false,
-                            "slug": "ern_charl_jon"
+                            "name": {
+                                   "en": "Ernest Charles Jones",
+                                   "de": "Ernest Charles Jones"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Ferdinand Lassalle",
-                                   "en": "Ferdinand Lassalle"
-                            },
+                            "slug": "ferd_las",
                             "has_en": false,
-                            "slug": "ferd_las"
+                            "name": {
+                                   "en": "Ferdinand Lassalle",
+                                   "de": "Ferdinand Lassalle"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Frederick Demuth",
-                                   "en": "Frederick Demuth"
-                            },
+                            "slug": "fred_dem",
                             "has_en": true,
-                            "slug": "fred_dem"
+                            "name": {
+                                   "en": "Frederick Demuth",
+                                   "de": "Frederick Demuth"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Friedrich Engels",
-                                   "en": "Friedrich Engels"
-                            },
+                            "slug": "fried_eng",
                             "has_en": false,
-                            "slug": "fried_eng"
+                            "name": {
+                                   "en": "Friedrich Engels",
+                                   "de": "Friedrich Engels"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Friedrich Lessner (Leßner)",
-                                   "en": "Friedrich Lessner (Leßner)"
-                            },
+                            "slug": "fried_less",
                             "has_en": false,
-                            "slug": "fried_less"
+                            "name": {
+                                   "en": "Friedrich Lessner (Leßner)",
+                                   "de": "Friedrich Lessner (Leßner)"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Giuseppe Mazzini ",
-                                   "en": "Giuseppe Mazzini "
-                            },
+                            "slug": "giu_mazz",
                             "has_en": false,
-                            "slug": "giu_mazz"
+                            "name": {
+                                   "en": "Giuseppe Mazzini ",
+                                   "de": "Giuseppe Mazzini "
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Gottfried Kinkel",
-                                   "en": "Gottfried Kinkel"
-                            },
+                            "slug": "gott_kin",
                             "has_en": false,
-                            "slug": "gott_kin"
+                            "name": {
+                                   "en": "Gottfried Kinkel",
+                                   "de": "Gottfried Kinkel"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Gustav Struve",
-                                   "en": "Gustav Struve"
-                            },
+                            "slug": "gus_stru",
                             "has_en": false,
-                            "slug": "gus_stru"
+                            "name": {
+                                   "en": "Gustav Struve",
+                                   "de": "Gustav Struve"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Harro Harring",
-                                   "en": "Harro Harring"
-                            },
+                            "slug": "harr_harr",
                             "has_en": false,
-                            "slug": "harr_harr"
+                            "name": {
+                                   "en": "Harro Harring",
+                                   "de": "Harro Harring"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Heinrich Bernhard Oppenheim",
-                                   "en": "Heinrich Bernhard Oppenheim"
-                            },
+                            "slug": "hein_bern_opp",
                             "has_en": false,
-                            "slug": "hein_bern_opp"
+                            "name": {
+                                   "en": "Heinrich Bernhard Oppenheim",
+                                   "de": "Heinrich Bernhard Oppenheim"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Helene Demuth",
-                                   "en": "Helene Demuth"
-                            },
+                            "slug": "hel_demu",
                             "has_en": true,
-                            "slug": "hel_demu"
+                            "name": {
+                                   "en": "Helene Demuth",
+                                   "de": "Helene Demuth"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Heinrich Guido Marx",
-                                   "en": "Heinrich Guido Marx"
-                            },
+                            "slug": "heinr_gui_marx",
                             "has_en": true,
-                            "slug": "heinr_gui_marx"
+                            "name": {
+                                   "en": "Heinrich Guido Marx",
+                                   "de": "Heinrich Guido Marx"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Franziska Marx",
-                                   "en": "Franziska Marx"
-                            },
+                            "slug": "fra_marx",
                             "has_en": true,
-                            "slug": "fra_marx"
+                            "name": {
+                                   "en": "Franziska Marx",
+                                   "de": "Franziska Marx"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Jenny Longuet, geb. Marx",
-                                   "en": "Jenny Longuet, geb. Marx"
-                            },
+                            "slug": "jenny_long",
                             "has_en": true,
-                            "slug": "jenny_long"
+                            "name": {
+                                   "en": "Jenny Longuet, geb. Marx",
+                                   "de": "Jenny Longuet, geb. Marx"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Jenny Marx, geb. von Westphalen",
-                                   "en": "Jenny Marx, geb. von Westphalen"
-                            },
+                            "slug": "jenny_marx",
                             "has_en": true,
-                            "slug": "jenny_marx"
+                            "name": {
+                                   "en": "Jenny Marx, geb. von Westphalen",
+                                   "de": "Jenny Marx, geb. von Westphalen"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Lajos Kossuth",
-                                   "en": "Lajos Kossuth"
-                            },
+                            "slug": "laj_koss",
                             "has_en": false,
-                            "slug": "laj_koss"
+                            "name": {
+                                   "en": "Lajos Kossuth",
+                                   "de": "Lajos Kossuth"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Laura Lafargue, geb. Marx",
-                                   "en": "Laura Lafargue, née Marx"
-                            },
+                            "slug": "lau_marx",
                             "has_en": true,
-                            "slug": "lau_marx"
+                            "name": {
+                                   "en": "Laura Lafargue, née Marx",
+                                   "de": "Laura Lafargue, geb. Marx"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Lizzy Engels, geb. Burns",
-                                   "en": "Lizzy Engels, geb. Burns"
-                            },
+                            "slug": "liz_burn",
                             "has_en": false,
-                            "slug": "liz_burn"
+                            "name": {
+                                   "en": "Lizzy Engels, geb. Burns",
+                                   "de": "Lizzy Engels, geb. Burns"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Mary Burns",
-                                   "en": "Mary Burns"
-                            },
+                            "slug": "mary_burns",
                             "has_en": false,
-                            "slug": "mary_burns"
+                            "name": {
+                                   "en": "Mary Burns",
+                                   "de": "Mary Burns"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Prosper-Olivier Lissagaray",
-                                   "en": "Prosper-Olivier Lissagaray"
-                            },
+                            "slug": "pros_lis",
                             "has_en": true,
-                            "slug": "pros_lis"
+                            "name": {
+                                   "en": "Prosper-Olivier Lissagaray",
+                                   "de": "Prosper-Olivier Lissagaray"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Paul Lafargue",
-                                   "en": "Paul Lafargue"
-                            },
+                            "slug": "paul_laf",
                             "has_en": true,
-                            "slug": "paul_laf"
+                            "name": {
+                                   "en": "Paul Lafargue",
+                                   "de": "Paul Lafargue"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Peter Imandt",
-                                   "en": "Peter Imandt"
-                            },
+                            "slug": "peter_ima",
                             "has_en": false,
-                            "slug": "peter_ima"
+                            "name": {
+                                   "en": "Peter Imandt",
+                                   "de": "Peter Imandt"
+                            }
                      },
                      {
-                            "name": {
-                                   "de": "Wilhelm Liebknecht",
-                                   "en": "Wilhelm Liebknecht"
-                            },
+                            "slug": "wilh_lieb",
                             "has_en": false,
-                            "slug": "wilh_lieb"
+                            "name": {
+                                   "en": "Wilhelm Liebknecht",
+                                   "de": "Wilhelm Liebknecht"
+                            }
                      }
-              ]
+              ],
+              "city_slug": "london"
        }
 ]
