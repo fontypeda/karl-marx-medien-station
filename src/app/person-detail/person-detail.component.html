@@ -2,7 +2,7 @@
   <div class="component-padding">
 
   <div fxLayout="row" fxLayoutGab="50px">
-    <div fxFlex="">
+    <div fxFlex="" fxLayout="column">
       <button  class="custom-button-main" (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
     </div>
     <div fxFlex="60">
@@ -23,7 +23,11 @@
 
     </div>
     <div fxFlex="">
-
+      <button *ngIf="hasLetters"
+        [routerLink]="'/letters/' + bioId"
+        class="custom-button-main">
+        {{ (isoCode === 'en') ? 'Go to Letters' : 'Zu den Briefen' }}
+      </button>
     </div>
   </div>
 

@@ -16,7 +16,9 @@ export class PersonDetailComponent implements OnInit {
 
   bioInfo: any;
   bioId: string;
+  groupId: string;
   isoCode: string;
+  hasLetters: boolean;
 
   constructor(
     private data: DataService,
@@ -33,8 +35,10 @@ export class PersonDetailComponent implements OnInit {
       this.isoCode = isoCode;
     });
     this.bioId = this.route.snapshot.paramMap.get('bioid');
+    this.groupId = this.route.snapshot.paramMap.get('groupid')
     let lang = this.route.snapshot.paramMap.get('lang');
-    this.bioInfo = this.data.getBioInfo(this.bioId)
+    this.bioInfo = this.data.getBioInfo(this.bioId);
+    this.hasLetters = this.data.personHasLetters(this.bioId);
     console.log(this.bioId);
     console.log(this.bioInfo);
   }

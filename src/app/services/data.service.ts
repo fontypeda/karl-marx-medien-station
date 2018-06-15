@@ -126,6 +126,17 @@ export class DataService {
     return letterGroup.has_en;
   }
 
+  public personHasLetters(bioId: string):boolean {
+    let result = this.letters.find((letterGroup) => {
+      return letterGroup.slug === bioId;
+    });
+    console.log(result);
+    if (result === undefined) {
+      return false;
+    } else {
+      return true;
+    }
+  }
   getLettersForGroup(letterGroupSlug: string) {
     let letterGroup = this.letters.find((letterGroupItem) => {
       return letterGroupItem.slug === letterGroupSlug;
@@ -146,7 +157,7 @@ export class DataService {
       return bioGroup.city_slug === bioGroupSlug;
     });
     console.log(bioGroup);
-    return bioGroup.bios; 
+    return bioGroup.bios;
 
   }
 
