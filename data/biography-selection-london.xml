@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<biography-selection>
+  <city>
+    <name>London</name>
+    <slug>london</slug>
+    <slugs>
+      <slug>adolf_cluss</slug>
+      <slug>caro_schoe</slug>
+      <slug>carl_schurz</slug>
+      <slug>char_long</slug>
+      <slug>dav_urq</slug>
+      <slug>edwa_ave</slug>
+      <slug>edg_marx</slug>
+      <slug>edg_westph</slug>
+      <slug>ele_marx</slug>
+      <slug>ern_charl_jon</slug>
+      <slug>ferd_las</slug>
+      <slug>fred_dem</slug>
+      <slug>fried_eng</slug>
+      <slug>fried_less</slug>
+      <slug>giu_mazz</slug>
+      <slug>gott_kin</slug>
+      <slug>gus_stru</slug>
+      <slug>harr_harr</slug>
+      <slug>hein_bern_opp</slug>
+      <slug>hel_demu</slug>
+      <slug>heinr_gui_marx</slug>
+      <slug>fra_marx</slug>
+      <slug>jenny_long</slug>
+      <slug>jenny_marx</slug>
+      <slug>laj_koss</slug>
+      <slug>lau_marx</slug>
+      <slug>liz_burn</slug>
+      <slug>mary_burns</slug>
+      <slug>pros_lis</slug>
+      <slug>paul_laf</slug>
+      <slug>peter_ima</slug>
+      <slug>wilh_lieb</slug>
+    </slugs>
+  </city>
+</biography-selection>

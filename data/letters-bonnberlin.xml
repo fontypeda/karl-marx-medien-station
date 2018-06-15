@@ -2,7 +2,7 @@
 <lettergroups>
   <lettergroup>
     <slug>berlin</slug>
-    <name>Briefe Berlin</name>
+    <name>Berlin</name>
     <name_en>Letters Berlin</name_en>
     <letters>
       <letter>
@@ -225,7 +225,7 @@ Trotz aller Mühe, humoristisch sich zu gebaren, drang großer Unmut und Melanch
   </lettergroup>
   <lettergroup>
     <slug>feuerbach</slug>
-    <name>Briefe Feuerbach</name>
+    <name>Feuerbach</name>
     <name_en></name_en>
     <letters>
       <letter>

@@ -1,0 +1,71 @@
+########################################
+trier
+########################################
+Trier
+Trier Familie
+########################################
+bonnberlin
+########################################
+Berlin
+Bonn
+Bruno Bauer
+Feuerbach
+########################################
+koeln
+########################################
+Dronke
+Moses Heß
+Köln
+Georg Weerth
+Wilhelm Wolff
+########################################
+paris
+########################################
+Annenkov
+Bakunin
+Fröbel
+Heine
+Herwegh
+Moses Heß
+Paris
+Proudhon
+Ruge
+########################################
+manchester
+########################################
+Manchester
+########################################
+bruessel
+########################################
+Blind
+Brüssel
+Daniels
+Freiligrath
+Moses Heß
+Schapper
+Weerth
+Weydemeyer
+Willich
+Wilhelm Wolff
+Zaltbommel
+########################################
+london
+########################################
+Algier
+Argenteuil
+Cluß
+Garibaldi
+Ernest Jones
+Das „Kapital“
+Karlsbad
+Kinkel
+Kossuth
+Kugelmann
+Lassalle
+Liebknecht
+London
+London
+Mazzini
+Monte Carlo
+Preußen
+USA
