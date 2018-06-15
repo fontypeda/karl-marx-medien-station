@@ -46,12 +46,14 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .main-component-wrapper {
-  height: 988px;
+  // Full height - 50 px header - 100px footer
+  height: 930px;
   overflow: hidden;
 }
 
 .component-padding {
-  margin: 50px;
+  margin-left: 50px;
+  margin-right: 50px;
   margin-bottom: 0px;
   height: 100%;
 }

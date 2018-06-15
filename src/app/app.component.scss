@@ -12,7 +12,11 @@
   flex: 1;
 }
 
-.application-footer, .application-header {
+.application-header {
+  display: flex;
+  height: 50px; 
+}
+.application-footer {
   background-color: #171717;
 }
 

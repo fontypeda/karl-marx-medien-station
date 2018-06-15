@@ -1,5 +1,31 @@
 @import '../../common-vars.scss';
 
+.main-letter-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+
+.letters {
+  overflow-y: auto;
+  // max-height: 100%;
+  display: flex;
+  width: 1500px;
+  flex-direction: column;
+  height: calc(100vh - 150px);
+  max-height: calc(100vh - 150px);
+}
+
+.nav-column {
+  display: flex;
+  width: 60px;
+}
+
+.letter-overview {
+  overflow-x: auto;
+  height: 930px;
+  width: 350px;
+  padding-right: 10px;
+}
 
 h2 {
   font-family: 'nra';
@@ -26,10 +52,15 @@ p.zit {
   padding-right: 100px;
 }
 
-.letters {
-  overflow-y: scroll;
-  height: calc(100vh - 15px);
+.last-letter {
+  background-color: red;
+  margin-bottom: 0px;
 }
+// .letter-bottom {
+//   height: 1200px;
+// }
+
+
 
 .custom-button-main {
   color: $primary-color;
@@ -56,10 +87,4 @@ p.zit {
 .pagescroll-letter a {
   color: $primary-color;
   text-decoration: none;
-}
-
-.letter-overview {
-  overflow-x: auto;
-  height: 938px;
-  padding-right: 10px;
 }

@@ -1,4 +1,4 @@
-import { Component, ElementRef, OnInit } from '@angular/core';
+import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 import { Location } from '@angular/common';
 import { Router, ActivatedRoute, ParamMap } from '@angular/router';
 
@@ -13,10 +13,14 @@ import { LanguageService } from '../services/language.service';
 })
 export class LettersDisplayComponent implements OnInit {
 
+  @ViewChild('letterContainer')
+  letterContainer: ElementRef;
+
   letters: any;
   isoCode: string;
   baseUrl: string;
   hasEn: boolean;
+
 
   constructor(
     private dataService: DataService,
@@ -48,7 +52,18 @@ export class LettersDisplayComponent implements OnInit {
     console.log("Scrolling to Letter" + idx);
     let nativeElement: HTMLElement = this.el.nativeElement;
     let letterElement = document.getElementById('letter' + idx);
-    letterElement.scrollIntoView();
+    // letterElement.scrollTo();
+    if (idx === this.letters.length - 1) {
+    //   console.log("Using scroll To");
+    //   // letterElement.
+    //   // letterElement.scrollTo(0, nativeElement.scrollHeight);
+      let parentContainer = this.letterContainer.nativeElement;
+      console.log(parentContainer.scrollHeight);
+      parentContainer.scrollTo(0, parentContainer.scrollHeight);
+      // window.scrollTo(0, nativeElement.scrollHeight);
+    } else {
+      letterElement.scrollIntoView();
+    }
     // nativeElement.scrollTo(letterElement);
     console.log(letterElement);
   }
