@@ -14,7 +14,9 @@ while [ ! -z $1 ]; do
   figlet "Preparing data..."
   # Copy the style variable
   cp data/common-vars-$city.scss src/common-vars.scss
-
+  # Overwrite the house value
+  city_color=$(grep "primary-color" data/common-vars-london.scss | head -n 1 | cut -d":" -f2 | cut -d";" -f1)
+  python3 utils/rewrite-house.py "$city_color"
   # read and write the data
   cd data/
   python3 write-biographies.py
