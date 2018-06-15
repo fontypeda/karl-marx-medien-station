@@ -1,5 +1,9 @@
 import { Component, OnInit } from '@angular/core';
 
+import { MatDialog } from '@angular/material/dialog';
+
+import { TranscriptionDialogComponent } from '../transcription-dialog/transcription-dialog.component';
+
 import { LanguageService } from '../services/language.service';
 
 import { sources } from '../vars/sources';
@@ -15,8 +19,9 @@ export class SourcesOverviewComponent implements OnInit {
   currIdx: number = 0;
   sources: any[] = sources;
   isoCode: string;
-  
+
   constructor(
+    public dialog: MatDialog,
     private languageService: LanguageService
   ) {
     this.isoCode = this.languageService.getIsoCode();
@@ -43,6 +48,13 @@ export class SourcesOverviewComponent implements OnInit {
     } else {
       this.currIdx -= 1;
     }
+  }
+
+  public showTranscription(transcription: any) {
+    this.dialog.open(TranscriptionDialogComponent, {
+      width: "1200px",
+      data: transcription
+    });
   }
 
 }

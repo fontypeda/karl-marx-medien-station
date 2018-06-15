@@ -1,0 +1,13 @@
+<div class="main">
+  <h1 mat-dialog-header class="dialog-header" fxLayout="row">
+    <span fxFlex="grow">
+      {{ (isoCode === 'en') ? 'Transkription' : 'Transcription' }}
+    </span>
+    <button mat-dialog-close fxFlex="100px" fxLayout="row">
+      X
+    </button>
+  </h1>
+  <div mat-dialog-content>
+    <p *ngFor="let para of data">{{ para }}</p>
+  </div>
+</div>

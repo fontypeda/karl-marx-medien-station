@@ -31,6 +31,7 @@ import { BaloonSelectorComponent } from './baloon-selector/baloon-selector.compo
 import { MissingTranslationComponent } from './missing-translation/missing-translation.component';
 import { CityPortraitOverviewComponent } from './city-portrait-overview/city-portrait-overview.component';
 import { BiographyGroupOverviewComponent } from './biography-group-overview/biography-group-overview.component';
+import { TranscriptionDialogComponent } from './transcription-dialog/transcription-dialog.component';
 // import { MissingTranslationDialogComponent } from './missing-translation-dialog/missing-translation-dialog.component';
 
 
@@ -49,6 +50,7 @@ import { BiographyGroupOverviewComponent } from './biography-group-overview/biog
     MissingTranslationComponent,
     CityPortraitOverviewComponent,
     BiographyGroupOverviewComponent,
+    TranscriptionDialogComponent,
     // MissingTranslationDialogComponent
   ],
   imports: [
@@ -57,6 +59,7 @@ import { BiographyGroupOverviewComponent } from './biography-group-overview/biog
     HttpClientModule,
     FlexLayoutModule,
     MatButtonModule,
+    MatDialogModule,
     MatGridListModule,
     MatIconModule,
     MatToolbarModule,
@@ -66,6 +69,9 @@ import { BiographyGroupOverviewComponent } from './biography-group-overview/biog
   ],
   providers: [
     DataService
+  ],
+  entryComponents: [
+    TranscriptionDialogComponent
   ],
   bootstrap: [AppComponent]
 })
