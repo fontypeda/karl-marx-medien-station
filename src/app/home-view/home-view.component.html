@@ -1,14 +1,35 @@
 <div style="padding: 150px 120px;" class="main-component-wrapper">
 
     <mat-grid-list class="main" fxFlex="grow" cols="2" rowHeight="fit">
-      <mat-grid-tile
-        *ngFor="let navTile of navTiles">
+      <mat-grid-tile>
 
-          <button class="custom-button-main-home" [routerLink]="navTile.link" mat-raised-button color="primary">
-            {{ navTile.name[isoCode] }}
+          <button class="custom-button-main-home" [routerLink]="cityPortrait.link" mat-raised-button color="primary">
+            {{ cityPortrait.name[isoCode] }}
           </button>
 
       </mat-grid-tile>
+      <mat-grid-tile>
+
+          <button *ngIf="hasBiographies" class="custom-button-main-home" [routerLink]="biographies.link" mat-raised-button color="primary">
+            {{ biographies.name[isoCode] }}
+          </button>
+
+      </mat-grid-tile>
+      <mat-grid-tile>
+
+          <button class="custom-button-main-home" [routerLink]="letters.link" mat-raised-button color="primary">
+            {{ letters.name[isoCode] }}
+          </button>
+
+      </mat-grid-tile>
+      <mat-grid-tile>
+
+          <button *ngIf="hasSources" class="custom-button-main-home" [routerLink]="sources.link" mat-raised-button color="primary">
+            {{ sources.name[isoCode] }}
+          </button>
+
+      </mat-grid-tile>
+
     </mat-grid-list>
 
 </div>

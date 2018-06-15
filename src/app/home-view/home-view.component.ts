@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 
+import { DataService } from '../services/data.service';
 
 import { LanguageService } from '../services/language.service';
 
@@ -11,44 +12,50 @@ import { LanguageService } from '../services/language.service';
 export class HomeViewComponent implements OnInit {
 
   isoCode: string;
-  navTiles: any[] = [
-    {
-      name: {
-        'de': "Stadtportrait",
-        'en': "City Portrait"
-      },
-      link: "./cityportrait"
+  hasSources: boolean;
+  hasBiographies: boolean;
+
+  cityPortrait: any = {
+        name: {
+          'de': "Stadtportrait",
+          'en': "City Portrait"
+        },
+        link: "./cityportrait"
+      };
+  biographies: any =     {
+        name: {
+          "en": "Biographies",
+          "de": "Biographien"
+        },
+        link: "./biographies"
+      };
+
+  letters: any = {
+    name: {
+      "de": "Briefe",
+      "en": "Letters"
     },
-    {
-      name: {
-        "en": "Biographies",
-        "de": "Biographien"
-      },
-      link: "./biographies"
+    link: "./letters"
+  };
+
+  sources: any = {
+    name: {
+      "de": "Archivalien",
+      "en": "Archive"
     },
-    {
-      name: {
-        "de": "Briefe",
-        "en": "Letters"
-      },
-      link: "./letters"
-    },
-    {
-      name: {
-        "de": "Archivalien",
-        "en": "Archive"
-      },
-      link: "./sources"
-    },
-  ];
+    link: "./sources"
+  }
 
   constructor(
+    private dataService: DataService,
     private languageService: LanguageService
   ) {
     this.isoCode = this.languageService.getIsoCode();
     this.languageService.languageChange$.subscribe((isoCode) => {
       this.isoCode = isoCode;
     });
+    this.hasSources = this.dataService.hasSources();
+    this.hasBiographies = this.dataService.hasBiographies(); 
   }
 
 

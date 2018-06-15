@@ -4,6 +4,9 @@ import { HttpClient } from '@angular/common/http';
 
 import { letters } from '../vars/letters';
 import { biographies } from '../vars/biographies';
+import { bioSelection } from '../vars/biographies-selection';
+import { sources } from '../vars/sources';
+
 
 @Injectable({
   providedIn: 'root'
@@ -12,6 +15,8 @@ import { biographies } from '../vars/biographies';
 export class DataService {
 
   letters: any[] = letters;
+  sources: any[] = sources;
+  bioSelection: any[] = bioSelection;
   bioDict: any = {};
 
   constructor(
@@ -26,6 +31,16 @@ export class DataService {
     biographies.forEach((biography) => {
       this.bioDict[biography["slug"]] = biography;
     });
+  }
+
+  hasSources() : boolean {
+    console.log(this.sources);
+    return this.sources.length > 0;
+  }
+
+  hasBiographies() :boolean {
+    console.log(this.bioSelection);
+    return this.bioSelection[0].length > 0;
   }
 
   getBioInfo(bioId: string) : any {
