@@ -30,7 +30,9 @@
               "./node_modules/font-awesome/css/font-awesome.css",
               "src/styles.scss"
             ],
-            "scripts": []
+            "scripts": [
+              "./node_modules/openseadragon/build/openseadragon/openseadragon.js"
+            ]
           },
           "configurations": {
             "production": {

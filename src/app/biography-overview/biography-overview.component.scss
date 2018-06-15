@@ -13,8 +13,10 @@
   text-align: center;
   display: flex;
   flex-direction: column;
+  justify-content: start;
   align-items: center;
-  justify-content: center;
+  padding-top: 100px;
+  height: 100%;
 }
 
 .persons-box {

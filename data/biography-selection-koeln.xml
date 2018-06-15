@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<biography-selection>
+  <city>
+    <name>Köln</name>
+    <slug>koeln</slug>
+    <slugs>
+      <slug>and_gott</slug>
+      <slug>edg_westph</slug>
+      <slug>ernst_dron</slug>
+      <slug>fried_eng</slug>
+      <slug>geo_weer</slug>
+      <slug>jenny_marx</slug>
+      <slug>mos_hess</slug>
+      <slug>wilh_wolff</slug>
+      <slug>jenny_long</slug>
+      <slug>carl_ferd_jul_froeb</slug>
+      <slug>karl_lud_bern</slug>
+      <slug>louis_blanc</slug>
+      <slug>mak_bak</slug>
+      <slug>pav_anne</slug>
+      <slug>proudhon</slug>
+    </slugs>
+  </city>
+</biography-selection>

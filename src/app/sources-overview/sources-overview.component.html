@@ -1,15 +1,17 @@
 <div class="main-component-wrapper">
   <div class="component-padding">
     <div fxLayout="row" fxLayoutGap="50px">
-      <div fxFlex="180px">
+      <div fxFlex="350px">
         <button class="custom-button-main" (click)="decreaseIdx()">{{ (isoCode === 'en') ? 'Previous' : 'Zurück' }}</button>
       </div>
-      <div class="img-container" fxFlex="">
-        <img [src]="'./assets/archive/transformed/' + sources[currIdx]['image']" alt="">
+        <!-- <div #fakeToolbar hidden="true"></div> -->
+      <div class="img-container" fxFlex="grow">
+        <img [src]="'./assets/archive/' + sources[currIdx]['image']" alt="">
       </div>
-      <div fxFlex="360px">
+
+      <div fxFlex="350px">
         <button class="custom-button-main" (click)="increaseIdx()">{{ (isoCode === 'en') ? 'Next' : 'Vorwärts' }}</button>
-        <div class="source-description">{{ sources[currIdx]['text'] }}</div>
+        <div class="source-description">{{ sources[currIdx]['sourceInfo'] }}</div>
       </div>
     </div>
 

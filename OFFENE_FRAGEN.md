@@ -15,6 +15,10 @@ Jenny je ein Porträt Marx und von Westphalen
 Ludwig von Westphalen in POrträt mit Nameszusatz
 Johann
 
+#### Archivalien
+
+Sterbeurkunde Heinrich Marx fehlerhafte Datei
+ 
 ### Berlin
 
 Bruno Gans in Netzwerk Trier keine englische Übersetzung in
@@ -40,6 +44,14 @@ Bruno Bauer nur ein Brief!
 #### Biographien
 
 Friedrich Engels fehlt titel im englischen
+
+Agnes Ruge in Auswahl von 235 aber nicht
+in Kölner Biographien
+
+#### Briefe
+
+Karl Marx aus Köln an den Obersten Engels [preuß. Stadtkommandant] in Köln, 3. März 1849 (Entwurf)
+Es fehlt ein Quellennachweis!
 
 ### Paris
 

@@ -12,6 +12,7 @@ package-lock.json
 # large assets and licensed fonts
 /src/assets/archive/
 /src/assets/fonts
+/data/archive/cities/
 
 # compiled output
 /dist

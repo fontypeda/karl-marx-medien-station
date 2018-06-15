@@ -21,13 +21,17 @@ while [ ! -z $1 ]; do
   python3 write-biography-selection.py $city
   python3 write-letters.py $city
   python3 write-city-portrait.py $city
+  python3 write-sources.py $city
 
+  figlet "Copying images"
+  rm -rf ../src/assets/archive/*
+  cp "archive/cities/"$city"/transformed/"*jpg ../src/assets/archive/
   figlet "Compiling to localhost..."
   # Compile to localhost for testing
+  cd ../
   ng build --prod \
     --output-path="/var/www/html/km-medien/"$city \
     --base-href="/km-medien/"$city"/"
   shift 1
-  cd ../
 
 done

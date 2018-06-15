@@ -9,12 +9,13 @@
   /*height: 100%;*/
   overflow-y: scroll;
   height: 720px;
+  padding-right: 50px;
 }
 
 .custom-button-main {
   background-color: transparent;
-  color: #c3e15f;
-  border: 4px solid #c3e15f;
+  color: $primary-color;
+  border: 4px solid $primary-color;
   font-size: 1.5rem;
   letter-spacing: 1px;
   padding: 1rem;

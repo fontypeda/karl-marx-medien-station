@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf8" standalone="yes" ?>
+<biography-selection>
+  <city>
+    <name>Paris</name>
+    <slug>paris</slug>
+    <slugs>
+      <slug>arnold_ruge</slug>
+      <slug>emma_herw</slug>
+      <slug>fried_eng</slug>
+      <slug>geo_her</slug>
+      <slug>ger_mau</slug>
+      <slug>hen_boer</slug>
+      <slug>heinr_heine</slug>
+      <slug>jenny_marx</slug>
+      <slug>jenny_long</slug>
+      <slug>carl_ferd_jul_froeb</slug>
+      <slug>karl_lud_bern</slug>
+      <slug>louis_blanc</slug>
+      <slug>mak_bak</slug>
+      <slug>mos_hess</slug>
+      <slug>pav_anne</slug>
+      <slug>proudhon</slug>
+    </slugs>
+  </city>
+</biography-selection>
