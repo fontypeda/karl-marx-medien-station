@@ -17,7 +17,7 @@
       </mat-grid-tile>
       <mat-grid-tile>
 
-          <button class="custom-button-main-home" [routerLink]="letters.link" mat-raised-button color="primary">
+          <button *ngIf="isoCode === 'de' || hasEnglishLetters" class="custom-button-main-home" [routerLink]="letters.link" mat-raised-button color="primary">
             {{ letters.name[isoCode] }}
           </button>
 

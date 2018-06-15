@@ -40,7 +40,18 @@ export class DataService {
 
   hasBiographies() :boolean {
     console.log(this.bioSelection);
-    return this.bioSelection[0].length > 0;
+    return this.bioSelection[0].bios.length > 0;
+  }
+
+  hasEnglishLetters() :boolean {
+    let hasLetters: boolean = false;
+    this.letters.forEach((letterGroup: any) => {
+      console.log(letterGroup);
+      if (letterGroup.has_en) {
+        hasLetters = true;
+      }
+    });
+    return hasLetters;
   }
 
   getBioInfo(bioId: string) : any {

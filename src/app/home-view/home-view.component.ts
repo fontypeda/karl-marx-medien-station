@@ -14,6 +14,7 @@ export class HomeViewComponent implements OnInit {
   isoCode: string;
   hasSources: boolean;
   hasBiographies: boolean;
+  hasEnglishLetters: boolean;
 
   cityPortrait: any = {
         name: {
@@ -55,7 +56,8 @@ export class HomeViewComponent implements OnInit {
       this.isoCode = isoCode;
     });
     this.hasSources = this.dataService.hasSources();
-    this.hasBiographies = this.dataService.hasBiographies(); 
+    this.hasBiographies = this.dataService.hasBiographies();
+    this.hasEnglishLetters = this.dataService.hasEnglishLetters(); 
   }
 
 
