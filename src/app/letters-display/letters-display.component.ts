@@ -49,23 +49,16 @@ export class LettersDisplayComponent implements OnInit {
   }
 
   public scrollTo(idx: number) {
-    console.log("Scrolling to Letter" + idx);
-    let nativeElement: HTMLElement = this.el.nativeElement;
+    // console.log("Scrolling to Letter" + idx);
+    // let nativeElement: HTMLElement = this.el.nativeElement;
     let letterElement = document.getElementById('letter' + idx);
-    // letterElement.scrollTo();
-    // if (idx === this.letters.length - 1) {
-    // //   console.log("Using scroll To");
-    // //   // letterElement.
-    // //   // letterElement.scrollTo(0, nativeElement.scrollHeight);
-    //   let parentContainer = this.letterContainer.nativeElement;
-    //   console.log(parentContainer.scrollHeight);
-    //   parentContainer.scrollTo(0, parentContainer.scrollHeight);
-    //   // window.scrollTo(0, nativeElement.scrollHeight);
-    // } else {
+    let el: HTMLElement = this.letterContainer.nativeElement;
+    // Display is 1080 - 150 = 930 so scroll into view
+    // only if height greater
+    let scrollHeight = el.scrollHeight;
+    if (scrollHeight > 930) {
       letterElement.scrollIntoView();
-    // }
-    // nativeElement.scrollTo(letterElement);
-    console.log(letterElement);
+    }
   }
 
 }

@@ -4,6 +4,7 @@
       <div fxFlex="350px" fxLayout="column">
         <div>
           <button *ngIf="sources.length > 1" class="custom-button-main"
+            mat-raised-button
             (click)="decreaseIdx()">
             {{ (isoCode === 'en') ? 'Previous' : 'Vorherige' }}
           </button>
@@ -11,6 +12,7 @@
         <div fxFlex="grow"></div>
         <div>
           <button *ngIf="sources[currIdx].transcription.length > 0"
+            mat-raised-button
             class="custom-button-main" (click)="showTranscription(sources[currIdx].transcription)">
             {{ (isoCode === 'en') ? 'Transcription' : 'Transkription' }}
           </button>
