@@ -9,7 +9,7 @@
           <!-- <h1>{{ city.name }}</h1> -->
           <div *ngFor="let article of city.articles; let idx = index">
             <h2 [id]="'article' + idx">{{ article[isoCode]["title"] }}</h2>
-            <p>{{ article[isoCode]["content"] }}</p>
+            <p *ngFor="let para of article[isoCode]['content']">{{ para }}</p>
           </div>
         </div>
       </div>
