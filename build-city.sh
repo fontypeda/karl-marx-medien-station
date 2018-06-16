@@ -82,6 +82,10 @@ if [ $BUILD_ZIP_FILE -eq 1 ]; then
   if [ ! -d $TMP_DIR ]; then
     mkdir $TMP_DIR
   fi
+  if [ -f $TMP_DIR"/"$city".zip" ]; then
+    rm $TMP_DIR"/"$city".zip"
+  fi
+  
   ng build --prod \
     --output-path=$TMP_DIR"/"$city
   cp autorun.brs $TMP_DIR"/"$city"/"
