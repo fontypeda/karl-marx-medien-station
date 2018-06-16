@@ -76,6 +76,27 @@ export class DataService {
     return bioGroupOverview;
   }
 
+  getBioGroupForSlug(bioSlug: string) :string {
+    console.log(bioSlug);
+    let bioGroupOverview: any[] = [];
+    let bioGroupString: string;
+    this.bioSelection.forEach((bioGroup: any) => {
+      console.log(bioGroup);
+      console.log(bioGroup.bios);
+      console.log(bioGroup.city_slug);
+      let matchedBiography = bioGroup.bios.find((biography: any) => {
+        // console.log(biography.slug);
+        return biography.slug === bioSlug;
+      });
+      console.log(matchedBiography);
+      if (matchedBiography !== undefined) {
+        bioGroupString = bioGroup.city_slug;
+        return;
+      }
+    });
+    return bioGroupString;
+  }
+
   getCityGroupOverview(isoCode: string): any[] {
     let cityGroupOverview: any[] = [];
     this.cities.forEach((city: any) => {

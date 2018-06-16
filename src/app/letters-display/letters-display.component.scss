@@ -49,7 +49,7 @@ p.zit {
 
 .footnote {
   border-top: 1px solid;
-  padding-top: 10px; 
+  padding-top: 10px;
 }
 
 .footnote-idx {
@@ -58,6 +58,25 @@ p.zit {
 
 .footnote-text {
 
+}
+
+.circle {
+  background-color: #fff;
+  border-radius: 100%;
+  height: 100px;
+  width: 100px;
+  overflow: hidden;
+  border: 5px solid $primary-color;
+}
+
+.portrait-link {
+  padding: 20px;
+}
+
+.portrait-name {
+  font-family: 'nra';
+  font-size: 25px;
+  color: $primary-color;
 }
 
 .letter {

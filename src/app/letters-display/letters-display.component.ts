@@ -20,6 +20,8 @@ export class LettersDisplayComponent implements OnInit {
   isoCode: string;
   baseUrl: string;
   hasEn: boolean;
+  bioInfo: any;
+  bioGroupId: string;
 
 
   constructor(
@@ -38,7 +40,12 @@ export class LettersDisplayComponent implements OnInit {
     this.baseUrl = this.router.url.split("#")[0];
     this.hasEn = this.dataService.letterGroupHasEn(groupId);
     this.letters = this.dataService.getLettersForGroup(groupId);
-
+    this.bioInfo = this.dataService.getBioInfo(groupId);
+    if (this.bioInfo !== undefined) {
+      this.bioGroupId = this.dataService.getBioGroupForSlug(this.bioInfo.slug);
+    }
+    console.log(this.bioInfo);
+    console.log(this.bioGroupId);
   }
 
   ngOnInit() {

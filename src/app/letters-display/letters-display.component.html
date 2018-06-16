@@ -1,8 +1,25 @@
 <div class="main-component-wrapper">
   <div class="component-padding">
   <div class="main-letter-wrapper" fxLayout="row" fxLayoutGap="50px">
-    <div class="nav-column" fxFlex>
-      <button  class="custom-button-main"  (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
+    <div class="nav-column" fxFlex fxLayout="column">
+      <div>
+        <button  class="custom-button-main"  (click)="goBack()">{{ (isoCode === 'en') ? 'Back' : 'Zurück' }}</button>
+      </div>
+      <div fxFlex="grow"></div>
+      <div *ngIf="bioInfo" fxLayout="row"
+        [routerLink]="'/biographies/' + bioGroupId + '/' + bioInfo.slug"
+        class="portrait-link"
+        fxLayoutAlign="center center">
+        <div fxFlex="150px">
+          <div class="circle">
+            <img width=100
+            [src]="'./assets/portraits/' + bioInfo.slug + '.jpg'" alt="">
+          </div>
+        </div>
+        <div>
+          <p class="portrait-name">{{ bioInfo.name }}</p>
+        </div>
+      </div>
     </div>
     <div fxFlex="60" class="letters" #letterContainer>
       <app-missing-translation *ngIf="isoCode === 'en' && !hasEn"></app-missing-translation>
